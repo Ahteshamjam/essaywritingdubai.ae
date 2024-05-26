@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ===== Bootstrap Link ====== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- ===== Box Icon Link ====== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ===== Google Fonts ====== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- ===== My Css Link ====== -->
+    <link rel="stylesheet" href="style.css">
+    <title>Order Now</title>
+</head>
+
+<body>
+<!-- ===== Header Start ===== -->
+<header>
+    <section id="header" class="container-two">
+      <div class="inner-section">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/essay-writing-logo.webp" alt="ESSAY WRITING DUBAI LOGO" class="essay-writing-dubai-logo-style"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index">Home</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="personal-statement-writer">Personal Statement Writer</a></li>
+                    <li><a class="dropdown-item" href="research-paper-help">Research Paper Help </a></li>
+                    <li><a class="dropdown-item" href="#">Dissertation Writing</a></li>
+                    <li><a class="dropdown-item" href="#">Thesis Help</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#reviews">Reviews</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+
+              </ul>
+              <form class="d-flex" role="search">
+               <button class="btn btn-outline-success add-bg-and-hover-effect" type="submit"><a href="order">Order Now</a></button> 
+                <a href="#"><button class="btn btn-outline-success" type="submit">Let's Talk</button></a>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+  </header>
+  <!-- ===== Header End ===== -->
+    <!-- ===== About Hero Start ===== -->
+    <section id="about-hero" class="container-two bg-color-chnage">
+        <section class="inner-section">
+            <div class="about-hero-main-box">
+                <div class="about-hero-main-box-sub-box adjust-width">
+                    <h2 class="about-hero-main-box-sub-box-heading-style">place your order here</h2>
+                    <p class="about-hero-main-box-sub-box-description">Looking for essay help? You are at the right
+                        place! We provide plagiarism free and professionally written in Dubai. Order now or chat with
+                        our expert writers for details.</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- ===== About Hero End ===== -->
+    <!-- ===== Order Form Start ===== -->
+    <section id="order-form" class="container-two">
+        <section class="inner-section">
+            <form action="">
+                <div class="order-form-main-box">
+                    <div class="order-form-main-box-sub-box">
+                        <p class="order-form-main-box-sub-box-heading-style">Paper Topic: <span
+                                class="required-star">*</span></p>
+                        <select name="" id="" required>
+                            <option value="Essay" selected="selected">Essay</option>
+                            <option value="Essay" selected="selected">Essay</option>
+                            <option value="Term paper">Term paper</option>
+                            <option value="Research paper">Research paper</option>
+                            <option value="Course Work">Course Work</option>
+                            <option value="Thesis">Thesis</option>
+                            <option value="Thesis Proposal">Thesis Proposal</option>
+                            <option value="Assignment">Assignment</option>
+                            <option value="Exposition Writing">Exposition Writing</option>
+                            <option value="Critical analysis">Critical analysis</option>
+                            <option value="Reflection paper">Reflection paper</option>
+                            <option value="Reflective Essay">Reflective Essay</option>
+                            <option value="Analytical Essay">Analytical Essay</option>
+                            <option value="Brief Overview">Brief Overview</option>
+                            <option value="Response Essay">Response Essay</option>
+                            <option value="Response paper">Response paper</option>
+                            <option value="Argumentative Essay">Argumentative Essay</option>
+                            <option value="Contrast Essay">Contrast Essay</option>
+                            <option value="Research Essay">Research Essay</option>
+                            <option value="Literature Review">Literature Review</option>
+                            <option value="Dissertation">Dissertation</option>
+                            <option value="Dissertation Chapter - Abstract">Dissertation Chapter -
+                                Abstract
+                            </option>
+                            <option value="Dissertation Chapter - Introduction">Dissertation Chapter -
+                                Introduction Chapter</option>
+                            <option value="Dissertation Chapter - Literature Review">Dissertation
+                                Chapter -
+                                Literature Review</option>
+                            <option value="Dissertation Chapter - Methodology">Dissertation Chapter -
+                                Methodology</option>
+                            <option value="Dissertation Chapter - Result">Dissertation Chapter - Result
+                            </option>
+                            <option value="Dissertation Chapter - Discussion">Dissertation Chapter -
+                                Discussion
+                            </option>
+                            <option value="Capstone Project">Capstone Project</option>
+                            <option value="Dissertation Chapter">Dissertation Chapter</option>
+                            <option value="Reflective Writing">Reflective Writing</option>
+                            <option value="Report">Report</option>
+                            <option value="Proofreading">Proofreading</option>
+                            <option value="Lab Report">Lab Report</option>
+                            <option value="PowerPoint Presentation">PowerPoint Presentation</option>
+                            <option value="Reaction Paper">Reaction Paper</option>
+                            <option value="Rewriting">Rewriting</option>
+                            <option value="Press Release">Press Release</option>
+                            <option value="Statement of Purpose">Statement of Purpose</option>
+                            <option value="Letter of Recommendation">Letter of Recommendation</option>
+                            <option value="Project">Project</option>
+                            <option value="Book Report">Book Report</option>
+                            <option value="Book Review">Book Review</option>
+                            <option value="Movie Review">Movie Review</option>
+                            <option value="Research Proposal">Research Proposal</option>
+                            <option value="Case Study">Case Study</option>
+                            <option value="Article">Article</option>
+                            <option value="Article Critique">Article Critique</option>
+                            <option value="Annotated Bibliography">Annotated Bibliography</option>
+                            <option value="Speech / Presentation">Speech / Presentation</option>
+                            <option value="Power Point Presentation (without speaker notes)">Power Point
+                                Presentation (without speaker notes)</option>
+                            <option value="Power Point Presentation (with speaker notes)">Power Point
+                                Presentation (with speaker notes)</option>
+                            <option value="Admission Essays">Admission Essays</option>
+                            <option value="Admission Services - Editing">Admission Services - Editing
+                            </option>
+                            <option value="Scholarship Essay">Scholarship Essay</option>
+                            <option value="Personal Statement">Personal Statement</option>
+                            <option value="News Release">News Release</option>
+                            <option value="Biography">Biography</option>
+                            <option value="Business Plan">Business Plan</option>
+                            <option value="EBooks">EBooks</option>
+                            <option value="Editing">Editing</option>
+                            <option value="Formatting">Formatting</option>
+                            <option value="Quiz">Quiz</option>
+                            <option value="Multiple Choice Questions (Non Time Framed)">Multiple Choice
+                                Questions (Non Time Framed)</option>
+                            <option value="Multiple Choice Questions (Time Framed)">Multiple Choice
+                                Questions
+                                (Time Framed)</option>
+                            <option value="Math Problem">Math Problem</option>
+                            <option value="Paraphrasing">Paraphrasing</option>
+                            <option value="Resume">Resume</option>
+                            <option value="Cover Letter">Cover Letter</option>
+                            <option value="Poster">Poster</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="order-form-main-box-sub-box">
+                        <p class="order-form-main-box-sub-box-heading-style">Referencing Style<span
+                                class="required-star">*</span></p>
+                        <select name="" id="" required>
+                            <option value="">Please Select</option>
+                            <option value="APA" >APA</option>
+                            <option value="MLA" >MLA</option>
+                            <option value="HARVARD" >HARVARD</option>
+                            <option value="CHICAGO" >CHICAGO</option>
+                            <option value="TURABIAN" >TURABIAN</option>
+                            <option value="OXFORD" >OXFORD</option>
+                            <option value="OSCOLA" >OSCOLA</option>
+                            <option value="VANCOUVER" >VANCOUVER</option>
+                            <option value="Others" >Other</option>
+                        </select>
+                    </div>
+                    <div class="order-form-main-box-sub-box">
+                        <p class="order-form-main-box-sub-box-heading-style">Educational Level<span
+                                class="required-star">*</span></p>
+                        <select name="" id="" required>
+                            <option value="">Please Select</option>
+
+                            <option value="high-school" >High School</option>
+                            
+                            <option value="College" >College</option>
+                            
+                            <option value="Undergraduate" >Undergraduate</option>
+                            
+                            <option value="Master" >Master's</option>
+                            
+                            <option value="PhD" >Ph.D</option>
+                            
+                            <option value="Admission" >Admission</option>
+                            
+                        </select>
+                    </div>
+                    <div class="order-form-main-box-sub-box">
+                        <p class="order-form-main-box-sub-box-heading-style">Subject<span class="required-star">*</span>
+                        </p>
+                        <select name="" id="" required>
+                            <option value="" selected="">Select Subject</option>
+                            <option value="Accounting">Accounting</option>
+                            <option value="Administration">Administration</option>
+                            <option value="Anthropology">Anthropology</option>
+                            <option value="Application-Letters">Application Letters</option>
+                            <option value="Art-and-Architecture">Art and Architecture</option>
+                            <option value="Biology">Biology</option>
+                            <option value="Business">Business</option>
+                            <option value="Chemistry">Chemistry</option>
+                            <option value="Child-Care">Child Care</option>
+                            <option value="Classic-English-Literature">Classic English Literature</option>
+                            <option value="Communications">Communications</option>
+                            <option value="Computer-Science">Computer Science</option>
+                            <option value="Database-Management">Database Management</option>
+                            <option value="Economics">Economics</option>
+                            <option value="Education">Education</option>
+                            <option value="Electronics">Electronics</option>
+                            <option value="Engineering">Engineering</option>
+                            <option value="Family-and-Consumer-Science">Family and Consumer Science</option>
+                            <option value="Film-and-Theatre-Studies">Film and Theatre Studies</option>
+                            <option value="Finance">Finance</option>
+                            <option value="Geography">Geography</option>
+                            <option value="Government-and-Politics">Government and Politics</option>
+                            <option value="History">History</option>
+                            <option value="Hospitality">Hospitality</option>
+                            <option value="Human-Resource">Human Resource</option>
+                            <option value="Law">Law</option>
+                            <option value="Management">Management</option>
+                            <option value="Marketing">Marketing</option>
+                            <option value="Mathematics">Mathematics</option>
+                            <option value="Matlab">Matlab</option>
+                            <option value="Mechanical">Mechanical</option>
+                            <option value="Medical-and-Nursing">Medical and Nursing</option>
+                            <option value="Media-Studies">Media Studies</option>
+                            <option value="Music">Music</option>
+                            <option value="Natural-Therapies">Natural Therapies</option>
+                            <option value="Philosophy">Philosophy</option>
+                            <option value="Physics">Physics</option>
+                            <option value="Programming-Language">Programming Language</option>
+                            <option value="Project-Management">Project Management</option>
+                            <option value="Psychology">Psychology</option>
+                            <option value="Public-Relations">Public Relations</option>
+                            <option value="Real-Estate">Real Estate</option>
+                            <option value="Recruitment">Recruitment</option>
+                            <option value="Religion">Religion</option>
+                            <option value="Science">Science</option>
+                            <option value="Social-Science">Social Science</option>
+                            <option value="Sociology">Sociology</option>
+                            <option value="Sport-Science">Sport Science</option>
+                            <option value="Statistics">Statistics</option>
+                            <option value="Strategy-and-Planning">Strategy and Planning</option>
+                            <option value="Theatre">Theatre</option>
+                            <option value="Tourism">Tourism</option>
+                            <option value="World-Literature">World Literature</option>
+                            <option value="Zoology">Zoology</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="order-form-main-box-sub-box">
+                        <p class="order-form-main-box-sub-box-heading-style">No. of Words <span
+                                class="required-star">*</span></p>
+                        <select name="" id="" required>
+                            <option value="" selected>Select Option</option>
+                            <option  value="1">1 Page(s) / 250 Words</option>
+                            <option  value="2">2 Page(s) / 500 Words</option>
+                            <option  value="3">3 Page(s) / 750 Words</option>
+                            <option  value="4">4 Page(s) / 1000 Words</option>
+                            <option  value="5">5 Page(s) / 1250 Words</option>
+                            <option  value="6">6 Page(s) / 1500 Words</option>
+                            <option  value="7">7 Page(s) / 1750 Words</option>
+                            <option  value="8">8 Page(s) / 2000 Words</option>
+                            <option  value="9">9 Page(s) / 2250 Words</option>
+                            <option  value="10">10 Page(s) / 2500 Words</option>
+                            <option  value="11">11 Page(s) / 2750 Words</option>
+                            <option  value="12">12 Page(s) / 3000 Words</option>
+                            <option  value="13">13 Page(s) / 3250 Words</option>
+                            <option  value="14">14 Page(s) / 3500 Words</option>
+                            <option  value="15">15 Page(s) / 3750 Words</option>
+                            <option  value="16">16 Page(s) / 4000 Words</option>
+                            <option  value="17">17 Page(s) / 4250 Words</option>
+                            <option  value="18">18 Page(s) / 4500 Words</option>
+                            <option  value="19">19 Page(s) / 4750 Words</option>
+                            <option  value="20">20 Page(s) / 5000 Words</option>
+                            <option  value="21">21 Page(s) / 5250 Words</option>
+                            <option  value="22">22 Page(s) / 5500 Words</option>
+                            <option  value="23">23 Page(s) / 5750 Words</option>
+                            <option  value="24">24 Page(s) / 6000 Words</option>
+                            <option  value="25">25 Page(s) / 6250 Words</option>
+                            <option  value="26">26 Page(s) / 6500 Words</option>
+                            <option  value="27">27 Page(s) / 6750 Words</option>
+                            <option  value="28">28 Page(s) / 7000 Words</option>
+                            <option  value="29">29 Page(s) / 7250 Words</option>
+                            <option  value="30">30 Page(s) / 7500 Words</option>
+                            <option  value="31">31 Page(s) / 7750 Words</option>
+                            <option  value="32">32 Page(s) / 8000 Words</option>
+                            <option  value="33">33 Page(s) / 8250 Words</option>
+                            <option  value="34">34 Page(s) / 8500 Words</option>
+                            <option  value="35">35 Page(s) / 8750 Words</option>
+                            <option  value="36">36 Page(s) / 9000 Words</option>
+                            <option  value="37">37 Page(s) / 9250 Words</option>
+                            <option  value="38">38 Page(s) / 9500 Words</option>
+                            <option  value="39">39 Page(s) / 9750 Words</option>
+                            <option  value="40">40 Page(s) / 10000 Words</option>
+                            <option  value="41">41 Page(s) / 10250 Words</option>
+                            <option  value="42">42 Page(s) / 10500 Words</option>
+                            <option  value="43">43 Page(s) / 10750 Words</option>
+                            <option  value="44">44 Page(s) / 11000 Words</option>
+                            <option  value="45">45 Page(s) / 11250 Words</option>
+                            <option  value="46">46 Page(s) / 11500 Words</option>
+                            <option  value="47">47 Page(s) / 11750 Words</option>
+                            <option  value="48">48 Page(s) / 12000 Words</option>
+                            <option  value="49">49 Page(s) / 12250 Words</option>
+                            <option  value="50">50 Page(s) / 12500 Words</option>
+                            <option  value="51">51 Page(s) / 12750 Words</option>
+                            <option  value="52">52 Page(s) / 13000 Words</option>
+                            <option  value="53">53 Page(s) / 13250 Words</option>
+                            <option  value="54">54 Page(s) / 13500 Words</option>
+                            <option  value="55">55 Page(s) / 13750 Words</option>
+                            <option  value="56">56 Page(s) / 14000 Words</option>
+                            <option  value="57">57 Page(s) / 14250 Words</option>
+                            <option  value="58">58 Page(s) / 14500 Words</option>
+                            <option  value="59">59 Page(s) / 14750 Words</option>
+                            <option  value="60">60 Page(s) / 15000 Words</option>
+                            <option  value="61">61 Page(s) / 15250 Words</option>
+                            <option  value="62">62 Page(s) / 15500 Words</option>
+                            <option  value="63">63 Page(s) / 15750 Words</option>
+                            <option  value="64">64 Page(s) / 16000 Words</option>
+                            <option  value="65">65 Page(s) / 16250 Words</option>
+                            <option  value="66">66 Page(s) / 16500 Words</option>
+                            <option  value="67">67 Page(s) / 16750 Words</option>
+                            <option  value="68">68 Page(s) / 17000 Words</option>
+                            <option  value="69">69 Page(s) / 17250 Words</option>
+                            <option  value="70">70 Page(s) / 17500 Words</option>
+                            <option  value="71">71 Page(s) / 17750 Words</option>
+                            <option  value="72">72 Page(s) / 18000 Words</option>
+                            <option  value="73">73 Page(s) / 18250 Words</option>
+                            <option  value="74">74 Page(s) / 18500 Words</option>
+                            <option  value="75">75 Page(s) / 18750 Words</option>
+                            <option  value="76">76 Page(s) / 19000 Words</option>
+                            <option  value="77">77 Page(s) / 19250 Words</option>
+                            <option  value="78">78 Page(s) / 19500 Words</option>
+                            <option  value="79">79 Page(s) / 19750 Words</option>
+                            <option  value="80">80 Page(s) / 20000 Words</option>
+                            <option  value="81">81 Page(s) / 20250 Words</option>
+                            <option  value="82">82 Page(s) / 20500 Words</option>
+                            <option  value="83">83 Page(s) / 20750 Words</option>
+                            <option  value="84">84 Page(s) / 21000 Words</option>
+                            <option  value="85">85 Page(s) / 21250 Words</option>
+                            <option  value="86">86 Page(s) / 21500 Words</option>
+                            <option  value="87">87 Page(s) / 21750 Words</option>
+                            <option  value="88">88 Page(s) / 22000 Words</option>
+                            <option  value="89">89 Page(s) / 22250 Words</option>
+                            <option  value="90">90 Page(s) / 22500 Words</option>
+                            <option  value="91">91 Page(s) / 22750 Words</option>
+                            <option  value="92">92 Page(s) / 23000 Words</option>
+                            <option  value="93">93 Page(s) / 23250 Words</option>
+                            <option  value="94">94 Page(s) / 23500 Words</option>
+                            <option  value="95">95 Page(s) / 23750 Words</option>
+                            <option  value="96">96 Page(s) / 24000 Words</option>
+                            <option  value="97">97 Page(s) / 24250 Words</option>
+                            <option  value="98">98 Page(s) / 24500 Words</option>
+                            <option  value="99">99 Page(s) / 24750 Words</option>
+                            <option  value="100">100 Page(s) / 25000 Words</option>
+                            <option  value="101">101 Page(s) / 25250 Words</option>
+                            <option  value="102">102 Page(s) / 25500 Words</option>
+                            <option  value="103">103 Page(s) / 25750 Words</option>
+                            <option  value="104">104 Page(s) / 26000 Words</option>
+                            <option  value="105">105 Page(s) / 26250 Words</option>
+                            <option  value="106">106 Page(s) / 26500 Words</option>
+                            <option  value="107">107 Page(s) / 26750 Words</option>
+                            <option  value="108">108 Page(s) / 27000 Words</option>
+                            <option  value="109">109 Page(s) / 27250 Words</option>
+                            <option  value="110">110 Page(s) / 27500 Words</option>
+                            <option  value="111">111 Page(s) / 27750 Words</option>
+                            <option  value="112">112 Page(s) / 28000 Words</option>
+                            <option  value="113">113 Page(s) / 28250 Words</option>
+                            <option  value="114">114 Page(s) / 28500 Words</option>
+                            <option  value="115">115 Page(s) / 28750 Words</option>
+                            <option  value="116">116 Page(s) / 29000 Words</option>
+                            <option  value="117">117 Page(s) / 29250 Words</option>
+                            <option  value="118">118 Page(s) / 29500 Words</option>
+                            <option  value="119">119 Page(s) / 29750 Words</option>
+                            <option  value="120">120 Page(s) / 30000 Words</option>
+                            <option  value="121">121 Page(s) / 30250 Words</option>
+                            <option  value="122">122 Page(s) / 30500 Words</option>
+                            <option  value="123">123 Page(s) / 30750 Words</option>
+                            <option  value="124">124 Page(s) / 31000 Words</option>
+                            <option  value="125">125 Page(s) / 31250 Words</option>
+                            <option  value="126">126 Page(s) / 31500 Words</option>
+                            <option  value="127">127 Page(s) / 31750 Words</option>
+                            <option  value="128">128 Page(s) / 32000 Words</option>
+                            <option  value="129">129 Page(s) / 32250 Words</option>
+                            <option  value="130">130 Page(s) / 32500 Words</option>
+                            <option  value="131">131 Page(s) / 32750 Words</option>
+                            <option  value="132">132 Page(s) / 33000 Words</option>
+                            <option  value="133">133 Page(s) / 33250 Words</option>
+                            <option  value="134">134 Page(s) / 33500 Words</option>
+                            <option  value="135">135 Page(s) / 33750 Words</option>
+                            <option  value="136">136 Page(s) / 34000 Words</option>
+                            <option  value="137">137 Page(s) / 34250 Words</option>
+                            <option  value="138">138 Page(s) / 34500 Words</option>
+                            <option  value="139">139 Page(s) / 34750 Words</option>
+                            <option  value="140">140 Page(s) / 35000 Words</option>
+                            <option  value="141">141 Page(s) / 35250 Words</option>
+                            <option  value="142">142 Page(s) / 35500 Words</option>
+                            <option  value="143">143 Page(s) / 35750 Words</option>
+                            <option  value="144">144 Page(s) / 36000 Words</option>
+                            <option  value="145">145 Page(s) / 36250 Words</option>
+                            <option  value="146">146 Page(s) / 36500 Words</option>
+                            <option  value="147">147 Page(s) / 36750 Words</option>
+                            <option  value="148">148 Page(s) / 37000 Words</option>
+                            <option  value="149">149 Page(s) / 37250 Words</option>
+                            <option  value="150">150 Page(s) / 37500 Words</option>
+                            <option  value="151">151 Page(s) / 37750 Words</option>
+                            <option  value="152">152 Page(s) / 38000 Words</option>
+                            <option  value="153">153 Page(s) / 38250 Words</option>
+                            <option  value="154">154 Page(s) / 38500 Words</option>
+                            <option  value="155">155 Page(s) / 38750 Words</option>
+                            <option  value="156">156 Page(s) / 39000 Words</option>
+                            <option  value="157">157 Page(s) / 39250 Words</option>
+                            <option  value="158">158 Page(s) / 39500 Words</option>
+                            <option  value="159">159 Page(s) / 39750 Words</option>
+                            <option  value="160">160 Page(s) / 40000 Words</option>
+                            <option  value="161">161 Page(s) / 40250 Words</option>
+                            <option  value="162">162 Page(s) / 40500 Words</option>
+                            <option  value="163">163 Page(s) / 40750 Words</option>
+                            <option  value="164">164 Page(s) / 41000 Words</option>
+                            <option  value="165">165 Page(s) / 41250 Words</option>
+                            <option  value="166">166 Page(s) / 41500 Words</option>
+                            <option  value="167">167 Page(s) / 41750 Words</option>
+                            <option  value="168">168 Page(s) / 42000 Words</option>
+                            <option  value="169">169 Page(s) / 42250 Words</option>
+                            <option  value="170">170 Page(s) / 42500 Words</option>
+                            <option  value="171">171 Page(s) / 42750 Words</option>
+                            <option  value="172">172 Page(s) / 43000 Words</option>
+                            <option  value="173">173 Page(s) / 43250 Words</option>
+                            <option  value="174">174 Page(s) / 43500 Words</option>
+                            <option  value="175">175 Page(s) / 43750 Words</option>
+                            <option  value="176">176 Page(s) / 44000 Words</option>
+                            <option  value="177">177 Page(s) / 44250 Words</option>
+                            <option  value="178">178 Page(s) / 44500 Words</option>
+                            <option  value="179">179 Page(s) / 44750 Words</option>
+                            <option  value="180">180 Page(s) / 45000 Words</option>
+                            <option  value="181">181 Page(s) / 45250 Words</option>
+                            <option  value="182">182 Page(s) / 45500 Words</option>
+                            <option  value="183">183 Page(s) / 45750 Words</option>
+                            <option  value="184">184 Page(s) / 46000 Words</option>
+                            <option  value="185">185 Page(s) / 46250 Words</option>
+                            <option  value="186">186 Page(s) / 46500 Words</option>
+                            <option  value="187">187 Page(s) / 46750 Words</option>
+                            <option  value="188">188 Page(s) / 47000 Words</option>
+                            <option  value="189">189 Page(s) / 47250 Words</option>
+                            <option  value="190">190 Page(s) / 47500 Words</option>
+                            <option  value="191">191 Page(s) / 47750 Words</option>
+                            <option  value="192">192 Page(s) / 48000 Words</option>
+                            <option  value="193">193 Page(s) / 48250 Words</option>
+                            <option  value="194">194 Page(s) / 48500 Words</option>
+                            <option  value="195">195 Page(s) / 48750 Words</option>
+                            <option  value="196">196 Page(s) / 49000 Words</option>
+                            <option  value="197">197 Page(s) / 49250 Words</option>
+                            <option  value="198">198 Page(s) / 49500 Words</option>
+                            <option  value="199">199 Page(s) / 49750 Words</option>
+                            <option  value="200">200 Page(s) / 50000 Words</option>
+                        </select>
+                    </div>
+                    <div class="order-form-main-box-sub-box">
+                        <p class="order-form-main-box-sub-box-heading-style">Deadline<span
+                                class="required-star">*</span></p>
+                        <select name="" id="" required>
+                            <option value="20" >20 DAYS / 15 Jun, 2024</option>
+
+                            <option value="15" >15 DAYS / 10 Jun, 2024</option>
+                            
+                            <option value="10" >10 DAYS / 05 Jun, 2024</option>
+                            
+                            <option value="7" >7 DAYS / 02 Jun, 2024</option>
+                            
+                            <option value="6" >6 DAYS / 01 Jun, 2024</option>
+                            
+                            <option value="5" >5 DAYS / 31 May, 2024</option>
+                            
+                            <option value="4" >4 DAYS / 30 May, 2024</option>
+                            
+                            <option value="3" >3 DAYS / 29 May, 2024</option>
+                            
+                            <option value="2" >2 DAYS / 28 May, 2024</option>
+                            
+                            <option value="24" >24 HOURS / 27 May, 2024</option>
+                            
+                            <option value="12" >12 HOURS / 27 May, 2024</option>
+                            
+                            <option value="6h" >6 HOURS / 26 May, 2024</option>
+                        </select>
+                    </div>
+                    <div class="order-form-main-box-sub-box">
+                        <p class="order-form-main-box-sub-box-heading-style">Name<span
+                                class="required-star">*</span></p>
+                       <input type="text" placeholder="Enter Your Name">
+                    </div>
+                    <div class="order-form-main-box-sub-box">
+                        <p class="order-form-main-box-sub-box-heading-style">Email<span
+                            class="required-star">*</span></p>
+                   <input type="email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="order-form-main-box-sub-box">
+                        <p class="order-form-main-box-sub-box-heading-style">Contact<span
+                            class="required-star">*</span></p>
+                   <input type="number" placeholder="Enter Your Contact">
+                    </div>
+                    <div class="text-area-box">
+                        <p class="order-form-main-box-sub-box-heading-style">Message:<span
+                                class="required-star">*</span></p>
+                        <textarea name="" id="" required placeholder="Type Your Message"></textarea>
+                    </div>
+                    <div class="total-price-box">
+                        <div class="total-price-box-left">
+                            <p class="total-price-box-left-description">Select Space:
+                                <input type="radio" name="space" id="rval-1" value="Singal-Space">
+                                <label for="rval-1"> Singal Space </label>
+                                <input type="radio" name="space" value="Double-Space" id="rval-2">
+                                <label for="rval-2"> Double Space</label>
+                            </p>
+                            <p class="total-price-box-left-second-description">Files Attachment</p>
+                            <div class="total-price-box-left-file-attachment-box">
+                                <p class="total-price-box-left-file-attachment-box-first-description"><img
+                                        src="images/click-upload-image.png" alt="">
+                                <p class="total-price-box-left-file-attachment-box-second-description">Drop files here
+                                    or <input type="file"></p>
+                                </p>
+                            </div>
+                            <p class="total-price-box-left-file-attachment-box-extention">.doc/ .docx/ .text/ .pdf</p>
+                           <p class="check-box"><input type="checkbox">I agree to Term <a href="term-and-condition">Terms and Condition</a></p>
+                        </div>
+                        <div class="total-price-box-right">
+                            <div class="total-amount">
+                                <h4 class="total-amount-heading-style">Total Amount</h4>
+                                <span class="total-amount-span">150.23</span>
+                            </div>
+                            <div class="total-price-box-right-button-box">
+                                <input type="submit" value="Place An Order">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </section>
+    <!-- ===== Order Form End ===== -->
+    <!-- ===== Horizontal Three Color Line Start ===== -->
+    <section id="horizontal-three-color-line" class="container-two">
+        <section class="inner-section">
+            <div class="horizontal-three-color-line-main-box"><img src="images/three-color-line.png" alt=""
+                    class="three-color-size-adjust"></div>
+        </section>
+    </section>
+    <!-- ===== Horizontal Three Color Line End ===== -->
+    <!-- ===== Reviews Start ===== -->
+    <section id="reviews" class="container-two">
+        <section class="inner-section">
+            <div class="reviews-main-box">
+                <div class="reviews-main-box-left">
+                    <h3 class="reviews-main-box-left-heading-style">Reviews</h3>
+                </div>
+                <div class="reviews-main-box-right">
+                    <img src="images/left-quote.png" alt="" class="review-left-coma">
+                    <div class="reviews-main-box-right-left-box">
+                        <h4 class="reviews-main-box-right-left-box-heading-style">Ruby Hex</h4>
+                        <p class="reviews-main-box-right-left-box-description">The brand has exceeded my expectations!
+                            As a
+                            satisfied client, I highly recommend their essay providing services. The professionalism and
+                            attention
+                            to detail of the company’s professionals provided me, are unparalleled. The company’s
+                            commitment to
+                            excellence truly stood out, making them the best Essay Writing Service provider near my
+                            area. With their
+                            expert assistance, my academic journey has been elevated to new heights. Thank you,
+                            EssayWritingDubai,
+                            for consistently delivering quality beyond compare!</p>
+                    </div>
+                    <div class="reviews-main-box-right-right-box"><img src="images/review-first-image.webp" alt=""
+                            class="review-first-image-adjust"></div>
+                    <img src="images/left-quote.png" alt="" class="review-right-coma">
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- ===== Reviews End ===== -->
+    <!-- ===== Horizontal Three Color Line Start ===== -->
+    <section id="horizontal-three-color-line" class="container-two">
+        <section class="inner-section">
+            <div class="horizontal-three-color-line-main-box"><img src="images/three-color-line.png" alt=""
+                    class="three-color-size-adjust"></div>
+        </section>
+    </section>
+    <!-- ===== Horizontal Three Color Line End ===== -->
+   <!-- ===== Footer Start ===== -->
+   <footer>
+    <section id="footer" class="container-two">
+      <section class="inner-section">
+        <div class="footer-main-box">
+          <div class="footer-main-box-first-box">
+            <img src="images/footer-essay-writing-logo.webp" alt="ESSAY WRITING DUBAI LOGO" class="essay-writing-footer-logo">
+            <p class="footer-main-box-first-box-description">Our materials aim to promote academic excellence as
+              valuable study aids. Clients must responsibly use our services in accordance with their educational
+              institution's ethics.</p>
+            <div class="social-media-icon-box">
+              <div class="social-media-icon-box-sub-box">
+              <a href="#">  <img src="images/facebook-logo.webp" alt="" class="facebook-image"></a>
+              </div>
+              <div class="social-media-icon-box-sub-box">
+              <a href="#">  <img src="images/instagram-logo.webp" alt="" class="instagram-image"></a>
+              </div>
+              <div class="social-media-icon-box-sub-box">
+              <a href="#"> <img src="images/twiter-logo.webp" alt="" class="twiter-image"></a> 
+              </div>
+              <div class="social-media-icon-box-sub-box">
+               <a href="#"> <img src="images/linkdin-logo.webp" alt="" class="linkdin-image"></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-main-box-first-box  add-width">
+            <h2 class="footer-main-box-first-box-heading-style">SERVICES</h2>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="personal-statement-writer">Personal Statement Writer</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="research-paper-help">Research Paper Help </a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Dissertation Writing</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">CIPD Assignment</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">HND Assignment</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Thesis Writing</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Research Paper</a></p>
+          </div>
+          <div class="footer-main-box-first-box  adjust-width">
+            <h2 class="footer-main-box-first-box-heading-style">SUBJECT</h2>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Nursing</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Business</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Engineering</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Computer</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Programming</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Biostatistics</a></p>
+          </div>
+          <div class="footer-main-box-first-box  adjust-width">
+            <h2 class="footer-main-box-first-box-heading-style">POLICIES</h2>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="about">About Us</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="order">Order</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="pricing">Pricing</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="pricing">Privacy Policy</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="term-and-condition">Terms & Condition</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Blogs</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#reviews">Reviews</a></p>
+          </div>
+          <div class="footer-main-box-first-box ">
+            <h2 class="footer-main-box-first-box-heading-style">Contact</h2>
+            <p class="footer-main-box-first-box-description adjust-text"><i class='bx bxs-envelope'></i><a
+                href="mailto:info@essaywritingdubai.ae">info@essaywritingdubai.ae</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><i class='bx bxl-whatsapp'
+                style='color:#ffffff'></i><a href="https://wa.me/971553745389">+971553745389</a></p>
+            <div class="play-store-icon-box"><img src="images/googel-play-icon.png" alt=""
+                class="play-store-icon-box-img"></div>
+            <div class="play-store-icon-box"><img src="images/app-store-icon.png" alt=""
+                class="play-store-icon-box-img"></div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="contect-number" class="container-two">
+      <section class="inner-section">
+        <div class="contect-number-main-box">
+          <div class="contect-number-main-box-left">
+            <div class="contect-number-main-box-left-left">
+              <p class="contect-number-main-box-left-left-description"><i class='bx bxs-envelope'></i><a
+                  href="mailto:info@essaywritingdubai.ae">info@essaywritingdubai.ae</a></p>
+            </div>
+            <div class="contect-number-main-box-left-right">
+              <p class="contect-number-main-box-left-right-description"><i class='bx bxl-whatsapp'
+                  style='color:#ffffff'></i><a href="https://wa.me/971553745389">+971553745389</a></p>
+            </div>
+
+          </div>
+          <div class="contect-number-main-box-right">
+            <img src="images/peyment img.png" alt="">
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="copy-right" class="container-two">
+      <section class="inner-section">
+        <div class="copy-right-main-box">
+          <p class="copy-right-main-box-description">Copyright © 2024 All Rights Reserved ( <a href="/"> Essay Writing
+              Dubai </a> )</p>
+        </div>
+      </section>
+    </section>
+  </footer>
+  <!-- ===== Footer End ===== -->
+</body>
+
+</html>

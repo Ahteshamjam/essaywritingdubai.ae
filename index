@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ===== Bootstrap Link ====== -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- ===== Box Icon Link ====== -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- ===== Google Fonts ====== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <!-- ===== My Css Link ====== -->
+  <link rel="stylesheet" href="style.css">
+  <!-- animation link  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <title>UAE’s # 1 Students Cheap Essay Writing Service Dubai Online</title>
+</head>
+
+<body>
+  <!-- ===== Header Start ===== -->
+  <header>
+    <section id="header" class="container-two">
+      <div class="inner-section">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/essay-writing-logo.webp" alt="ESSAY WRITING DUBAI LOGO" class="essay-writing-dubai-logo-style"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index">Home</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="personal-statement-writer">Personal Statement Writer</a></li>
+                    <li><a class="dropdown-item" href="research-paper-help">Research Paper Help </a></li>
+                    <li><a class="dropdown-item" href="#">Dissertation Writing</a></li>
+                    <li><a class="dropdown-item" href="#">Thesis Help</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#reviews">Reviews</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+
+              </ul>
+              <form class="d-flex" role="search">
+               <button class="btn btn-outline-success add-bg-and-hover-effect" type="submit"><a href="order">Order Now</a></button> 
+                <a href="#"><button class="btn btn-outline-success" type="submit">Let's Talk</button></a>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+  </header>
+  <!-- ===== Header End ===== -->
+  <!-- ===== Main Start ===== -->
+  <main>
+    <!-- ===== Hero Start ===== -->
+    <section id="hero" class="container-two ">
+      <section class="inner-section">
+        <div class="hero-main-box">
+          <div class="hero-main-box-left"></div>
+          <div class="hero-main-box-right " >
+            <h1 class="hero-main-box-right-heading-style">Discover Your Guide to the Best Essay Writing Service in UAE
+
+            </h1>
+            <p class="hero-main-box-right-description" >Our services are seamlessly tailored to meet your unique needs.
+              With a dedicated team of experts specializing in online Essay Writing in Dubai, we are committed to
+              crafting excellence like never before!
+            </p>
+          <button class="hero-main-box-right-btn-style"><a href="order">Place Your Order Right Now</a></button>
+          </div>
+        </div>
+        <div class="hero-calculator-box">
+          <h2 class="discover-prices">Discover Prices:</h2>
+          <div class="hero-calculator-box-sub-box">
+            <div class="hero-calculator-box-sub-box-left">
+              <form action="">
+                <select name="" id="" required>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                </select>
+                <select name="" id="" required>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                </select>
+                <select name="" id="" required>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                </select>
+                <select name="" id="" required>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                  <option value="">Select Paper Type</option>
+                </select>
+              </form>
+            </div>
+            <div class="hero-calculator-box-sub-box-right">
+              <h3 class="total-price-text-heading">Total Prices</h3>
+              <p class="total-price-box-description">AED <span class="count-price">0.00</span></p>
+            </div>
+          </div>
+          <div class="order-now-btn-box">
+            <form action="">
+              <a href="#"><input type="submit" value="Conform Order"></a>
+            </form>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- ===== Hero End ===== -->
+    <!-- ===== Offring Primer Start ===== -->
+    <section id="offring-primer" class="container-two">
+      <div class="inner-section">
+        <div class="offring-primer-main-box">
+          <div class="offring-primer-main-box-left"><img src="images/home-page-image-2.png" alt=""></div>
+          <div class="offring-primer-main-box-right">
+            <h2 class="offring-primer-main-box-right-heading-style">Offering Premier Essay Writing Service All Over Gulf
+              Countries Including UAE</h2>
+            <p class="offring-primer-main-box-right-description" >Embark on an enriching academic journey with our
+              exceptional online essay website, where we bring masterful creations to meet your scholarly aspirations.
+              Our exceptional team, consisting of the best professionals in the field, is devoted to delivering top-tier
+              essay assignment help customized to your unique needs.</p>
+            <p class="offring-primer-main-box-right-description" >At the heart of our service is a commitment to
+              excellence, ensuring that your academic experience is not only successful but also tailored to your
+              individual requirements. Trust us to be your go-to source for providing top-notch essay writing assistance
+              online, where every word is crafted with precision.</p>
+          </div>
+          <div class="offring-primer-main-box-sub-box" >
+            <h3 class="offring-primer-main-box-sub-box-heading-style"><img src="images/substract.png"
+                alt="AFFORDABILITY Image">AFFORDABILITY</h3>
+            <p class="offring-primer-main-box-sub-box-description">We prioritize affordability without compromising on
+              the quality of our services. Our transparent pricing structure ensures that you receive best quality
+              assistance at affordable rates. We take pride in offering cheap yet high-quality solutions to meet your
+              academic needs. Trust us to deliver excellence without burdenizing your bank, making academic support
+              accessible to all.</p>
+            <h3 class="offring-primer-main-box-sub-box-heading-style"><img src="images/substract.png"
+                alt="AFFORDABILITY Image">AVAILABILITY</h3>
+            <p class="offring-primer-main-box-sub-box-description">Our availability spans across the UAE, including
+              Dubai, Abu Dhabi, Sharjah, and Al Ain. From Ajman to Ras Al-Khaimah, our services cater to students across
+              various regions. Experience the convenience of accessing our professional essay writing assistance in
+              every corner of the Emirates. Trust us to be your reliable partner, ensuring our availability aligns
+              seamlessly with your academic needs.</p>
+            <h4 class="offring-primer-main-box-sub-box-heading-style"><img src="images/substract.png"
+                alt="AFFORDABILITY Image">DIVERSIFIED KNOWLEDGE</h4>
+            <p class="offring-primer-main-box-sub-box-description">At Essay Writing Dubai, our writers possess
+              diversified knowledge, crafting top-notch essays across a spectrum of subjects. From biology essays to
+              personal essays, our expertise extends to meet the unique requirements of every student. Trust us for
+              tailored assistance in crafting masters essays that showcase depth and insight.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== Offring Primer End ===== -->
+    <!-- ===== Counter Start ===== -->
+    <section id="counter" class="container-two">
+      <section class="inner-section">
+        <img src="images/counter-left.png" alt="" class="counter-left-icon-image">
+        <div class="counter-main-box">
+          <div class="counter-main-box-sub-box">
+            <h3 class="counter-main-box-sub-box-heading-style">70</h3>
+            <p class="counter-main-box-sub-box-description">Expert Writers</p>
+          </div>
+          <div class="counter-main-box-sub-box">
+            <h3 class="counter-main-box-sub-box-heading-style">1256</h3>
+            <p class="counter-main-box-sub-box-description"> Satisfies Students </p>
+          </div>
+          <div class="counter-main-box-sub-box">
+            <h3 class="counter-main-box-sub-box-heading-style">6732</h3>
+            <p class="counter-main-box-sub-box-description">Top-tier Assignments</p>
+          </div>
+          <div class="counter-main-box-sub-box">
+            <h3 class="counter-main-box-sub-box-heading-style">643</h3>
+            <p class="counter-main-box-sub-box-description">Diversified Topics</p>
+          </div>
+        </div>
+        <img src="images/counter-right.png" alt="" class="counter-right-icon-image">
+
+      </section>
+    </section>
+    <!-- ===== Counter End ===== -->
+    <!-- ===== Expertise Of Essay Writing Start ===== -->
+    <section id="expertise-of-essay-writing" class="container-two">
+      <section class="inner-section">
+        <img src="images/order-bg-ccircle.png" alt="" class="expertise-of-essay-writing-first-circle-pic">
+        <img src="images/order-bg-ccircle.png" alt="" class="expertise-of-essay-writing-second-circle-pic">
+        <img src="images/order-bg-ccircle.png" alt="" class="expertise-of-essay-writing-third-circle-pic">
+        <div class="expertise-of-essay-writing-heading-box">
+          <h2 class="expertise-of-essay-writing-heading-style" >Order Your Essay And Avail Our Expertise of
+            EssayWritingDubai</h2>
+          <p class="expertise-of-essay-writing-description" >Secure academic excellence by ordering your essay and
+            tapping into our expertise. Our team, composed of Masters and Ph.D. qualified professionals, is dedicated to
+            delivering unparalleled quality essays tailored to your educational journey.
+          </p>
+        </div>
+        <div class="expertise-of-essay-writing-main-box">
+          <div class="expertise-of-essay-writing-main-box-sub-box adjust-rotate">
+            <img src="images/first-icon.png" alt="" class="expertise-of-essay-writing-main-box-sub-box-icon-image">
+            <h3 class="expertise-of-essay-writing-main-box-sub-box-heading-style">Visit Our Website</h3>
+            <p class="expertise-of-essay-writing-main-box-sub-box-description">JVisit us to place an order.</p>
+          </div>
+          <div class="expertise-of-essay-writing-main-box-sub-box second-image" >
+            <img src="images/message.png" alt=""
+              class="expertise-of-essay-writing-main-box-sub-box-icon-image adjust-size">
+            <h3 class="expertise-of-essay-writing-main-box-sub-box-heading-style">Contact Our Writers</h3>
+            <p class="expertise-of-essay-writing-main-box-sub-box-description">Talk with our representative.</p>
+          </div>
+          <div class="expertise-of-essay-writing-main-box-sub-box second-image">
+            <img src="images/massage-time.png" alt=""
+              class="expertise-of-essay-writing-main-box-sub-box-icon-image adjust-size-third-image">
+            <h3 class="expertise-of-essay-writing-main-box-sub-box-heading-style">Provide Details</h3>
+            <p class="expertise-of-essay-writing-main-box-sub-box-description">Give details and confirm your order.</p>
+          </div>
+          <div class="expertise-of-essay-writing-main-box-sub-box second-image  right-box">
+            <img src="images/recive-order.png" alt=""
+              class="expertise-of-essay-writing-main-box-sub-box-icon-image adjust-size-four-image">
+            <h3 class="expertise-of-essay-writing-main-box-sub-box-heading-style">Receive Your Order</h3>
+            <p class="expertise-of-essay-writing-main-box-sub-box-description">Review your order and enjoy A+ content.</p>
+          </div>
+        </div>
+        <div class="expertise-of-essay-writing-heading-box">
+          <h3 class="expertise-of-essay-writing-heading-style"  >Don’t Wait! Order Right Away</h3>
+          <p class="expertise-of-essay-writing-description" >Experience the benefits of our assignment help online by
+            placing your order right away and unlocking academic success.</p>
+          <div class="expertise-of-essay-writing-btn">
+            <a href="#"><button class="expertise-of-essay-writing-btn-style adjust-btn-style">Let's Talk</button></a>
+            <a href="#"><button class="expertise-of-essay-writing-btn-style" >Order Right Now</button></a>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- ===== Expertise Of Essay Writing End ===== -->
+    <!-- ===== Academic Journey Start ===== -->
+    <section id="academic-journey" class="container-two">
+      <section class="inner-section">
+        <div class="academic-journey-heading-box">
+          <h2 class="academic-journey-heading-box-heading-style" >Elevate Your Academic Journey with Top-Tier Essay
+            Writing Help in Dubai</h2>
+        </div>
+        <div class="academic-journey-main-box">
+          <div class="academic-journey-main-box-sub-box" >
+            <img src="images/search-icon.png" alt="" class="academic-journey-main-box-sub-box-icon-style">
+            <p class="academic-journey-main-box-sub-box-description">Customer Service Available 24/7</p>
+          </div>
+          <div class="academic-journey-main-box-sub-box" >
+            <img src="images/edit.png" alt="" class="academic-journey-main-box-sub-box-icon-style">
+            <p class="academic-journey-main-box-sub-box-description">Affordability at its Best</p>
+          </div>
+          <div class="academic-journey-main-box-sub-box" >
+            <img src="images/note.png" alt="" class="academic-journey-main-box-sub-box-icon-style">
+            <p class="academic-journey-main-box-sub-box-description">Timely Submissions with 100% Quality </p>
+          </div>
+          <div class="academic-journey-main-box-sub-box" >
+            <img src="images/massage-time.png" alt=""
+              class="academic-journey-main-box-sub-box-icon-style adjust-icon-size">
+            <p class="academic-journey-main-box-sub-box-description">Plagiarism-free Content Delivery</p>
+          </div>
+          <div class="academic-journey-main-box-sub-box" >
+            <img src="images/profile.png" alt="" class="academic-journey-main-box-sub-box-icon-style">
+            <p class="academic-journey-main-box-sub-box-description"> Expert Writer Transparent Assistance</p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- ===== Academic Journey End ===== -->
+    <!-- ===== Horizontal Three Color Line Start ===== -->
+    <section id="horizontal-three-color-line" class="container-two">
+      <section class="inner-section">
+        <div class="horizontal-three-color-line-main-box"><img src="images/three-color-line.png" alt=""
+            class="three-color-size-adjust"></div>
+      </section>
+    </section>
+    <!-- ===== Horizontal Three Color Line End ===== -->
+    <!-- ===== Professional Essay Writer Start ===== -->
+    <section id="professional-essay-writer" class="container-two">
+      <section class="inner-section">
+        <div class="professional-essay-writer-main-box">
+          <div class="professional-essay-writer-main-box-left" >
+            <h2 class="professional-essay-writer-main-box-left-heading-style">Explore Our Professional Essay Writer
+              Service Online</h2>
+            <p class="professional-essay-writer-main-box-left-description">Our skilled essay writers, armed with
+              expertise, bring forth swift and flawless results. At Essay Writing Dubai, we go beyond the ordinary in
+              online essay services, seamlessly blending reliability with professionalism. Count on us as your go-to
+              spot for prompt, top-notch writing support that goes above and beyond. Unleash the prowess of our online
+              professional essay writer service, where precision harmonizes with speed, setting a fresh benchmark in the
+              realm of academic distinction.</p>
+          </div>
+          <div class="professional-essay-writer-main-box-right" >
+            <h2 class="professional-essay-writer-main-box-left-heading-style">We are Professional Custom Essay Writing
+              Service Company in UAE</h2>
+            <p class="professional-essay-writer-main-box-left-description">Step into the realm of our esteemed essay
+              writing company, where precision meets excellence. At our core, we offer nothing short of experienced
+              writing services, that takes customization to new heights, tailoring each piece to your unique
+              requirements. Behind our service stands a team of experts, masters in the art of custom writing,
+              dedicating themselves to crafting personalized masterpieces. Our examples stand as testimonials to the
+              high-quality standards we uphold.
+            </p>
+          </div>
+        </div>
+        <div class="professional-essay-writer-second-main-box">
+          <h2 class="professional-essay-writer-second-main-box-left-heading-style">Unfold the Finest UAE Essay Writing
+            Service in Different Languages
+          </h2>
+          <p class="professional-essay-writer-second-main-box-left-description">We are a brand where proficiency in
+            essay writing meets the richness of both English and Arabic languages. Our seasoned essay writers fluent in
+            Arabic and English, both languages, bring forth a unique blend of cultural insight and linguistic mastery to
+            elevate your assignments. Whether crafting essays in either of the languages, our services stand at the
+            intersection of precision and creativity.</p>
+        </div>
+      </section>
+    </section>
+    <!-- ===== Professional Essay Writer End ===== -->
+    <!-- ===== Horizontal Three Color Line Start ===== -->
+    <section id="horizontal-three-color-line" class="container-two">
+      <section class="inner-section">
+        <div class="horizontal-three-color-line-main-box"><img src="images/three-color-line.png" alt=""
+            class="three-color-size-adjust"></div>
+      </section>
+    </section>
+    <!-- ===== Horizontal Three Color Line End ===== -->
+    <!-- ===== School Assignments Start ===== -->
+    <section id="school-assignments" class="container-two">
+      <section class="inner-section">
+        <div class="school-assignments-heading-box">
+          <h3 class="school-assignments-heading-box-heading-style">Handling a Spectrum of School Assignments with
+            Expertise</h3>
+        </div>
+        <div class="school-assignments-main-box">
+          <div class="school-assignments-main-box-sub-box">
+            <h3 class="school-assignments-main-box-sub-box-text-style">Business</h3>
+          </div>
+          <div class="school-assignments-main-box-sub-box history">
+            <h3 class="school-assignments-main-box-sub-box-text-style">History</h3>
+          </div>
+          <div class="school-assignments-main-box-sub-box Nursing">
+            <h3 class="school-assignments-main-box-sub-box-text-style" >Nursing</h3>
+          </div>
+          <div class="school-assignments-main-box-sub-box Engineering" >
+            <h3 class="school-assignments-main-box-sub-box-text-style">Engineering</h3>
+          </div>
+          <div class="school-assignments-main-box-sub-box Computer" >
+            <h3 class="school-assignments-main-box-sub-box-text-style" > Computer</h3>
+          </div>
+          <div class="school-assignments-main-box-sub-box Programming" >
+            <h3 class="school-assignments-main-box-sub-box-text-style ">Programming</h3>
+          </div>
+          <div class="school-assignments-main-box-sub-box Biostatistics">
+            <h3 class="school-assignments-main-box-sub-box-text-style "> Biostatistics</h3>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- ===== School Assignments End ===== -->
+    <!-- ===== Cheap Essay Writing Start ===== -->
+    <section id="cheap-essay-writing" class="container-two">
+      <section class="inner-section">
+        <img src="images/counter-left.png" alt="" class="cheap-essay-writing-left-ero">
+        <img src="images/order-bg-ccircle.png" alt="" class="cheap-essay-writing-first-circle">
+
+        <div class="cheap-essay-writing-main-box">
+          <div class="cheap-essay-writing-main-box-heading-box">
+            <h2 class="cheap-essay-writing-main-box-heading-style">Navigating Academia with Our Cheap Essay Writing
+              Service Dubai</h2>
+            <p class="cheap-essay-writing-main-box-description">Take off on an academic journey with our economic
+              excellence, where we proudly stand as the cheapest yet reliable service provider. Buy an essay from us and
+              experience unmatched quality at budget-friendly rates. Explore our samples to witness the depth and
+              precision we bring to every piece.</p>
+            <div class="expertise-of-essay-writing-btn">
+              <a href="#"><button class="expertise-of-essay-writing-btn-style adjust-btn-style">Let's Talk</button></a>
+              <a href="#"><button class="expertise-of-essay-writing-btn-style">Order Right Now</button></a>
+            </div>
+          </div>
+
+        </div>
+        <img src="images/order-bg-ccircle.png" alt="" class="cheap-essay-writing-second-circle">
+        <img src="images/counter-right.png" alt="" class="cheap-essay-writing-right-ero">
+
+      </section>
+    </section>
+    <!-- ===== Cheap Essay Writing End ===== -->
+    <!-- ===== Reviews Start ===== -->
+    <section id="reviews" class="container-two">
+      <section class="inner-section">
+        <h2 class="reviews-heading-style">Reviews</h2>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-main-box">
+                  <div class="carousel-main-box-left"><h2 class="carousel-main-box-left-heading-style">Reviews</h2></div>
+                  <div class="carousel-main-box-right">
+                      <div class="carousel-main-box-right-left"><h3 class="carousel-main-box-right-left-heading-style">Ruby Hex</h3>
+                      <p class="carousel-main-box-right-left-description">The brand has exceeded my expectations! As a satisfied client, I highly recommend their essay providing
+                        services. The professionalism and attention to detail of the company’s professionals provided me, are
+                        unparalleled. The company’s commitment to excellence truly stood out, making them the best Essay
+                        Writing Service provider near my area. With their expert assistance, my academic journey has been
+                        
+                        elevated to new heights. Thank you, EssayWritingDubai, for consistently delivering quality beyond
+                        compare!</p></div>
+                      <div class="carousel-main-box-right-right"><img src="images/review-first-image.webp" alt="Reviews Image" class="reviews-images"></div>
+                  </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-main-box">
+                  <div class="carousel-main-box-left"><h2 class="carousel-main-box-left-heading-style">Reviews</h2></div>
+                  <div class="carousel-main-box-right">
+                      <div class="carousel-main-box-right-left"><h3 class="carousel-main-box-right-left-heading-style">John Kings</h3>
+                      <p class="carousel-main-box-right-left-description">This top-notch service provider company has been a game-changer for me, and I couldn&#39;t be happier
+                        with their services. The team of Expert writers demonstrated unmatched skills and dedication, ensuring
+                        my essays were of the highest quality. I&#39;m truly impressed by the depth of knowledge and
+                        professionalism displayed throughout the process. EssayWritingDubai.ae stands out as a beacon of
+                        reliability with its expert writers, making them my go-to for academic excellence.</p></div>
+                      <div class="carousel-main-box-right-right"><img src="images/review-first-image.webp" alt="Reviews Image" class="reviews-images"></div>
+                  </div>
+              </div>
+             
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-main-box">
+                  <div class="carousel-main-box-left"><h2 class="carousel-main-box-left-heading-style">Reviews</h2></div>
+                  <div class="carousel-main-box-right">
+                      <div class="carousel-main-box-right-left"><h3 class="carousel-main-box-right-left-heading-style">Sarah Lane</h3>
+                      <p class="carousel-main-box-right-left-description">This top-rated essay service providing company has been a lifesaver in my academic journey. The team,
+                        akin to facilitating its customers, delivered exceptional work that surpassed the rigorous standards of
+                        universities. Their commitment to excellence is evident, providing me with precisely what I needed for
+                        my assignments. As a satisfied client, I can attest that this brand is the go-to resource for anyone
+                        navigating the challenges of university-level assignments. Thank you for your dedication and
+                        professionalism!</p></div>
+                      <div class="carousel-main-box-right-right"><img src="images/review-first-image.webp" alt="Reviews Image" class="reviews-images"></div>
+                  </div>
+              </div>
+             
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-main-box">
+                  <div class="carousel-main-box-left"><h2 class="carousel-main-box-left-heading-style">Reviews</h2></div>
+                  <div class="carousel-main-box-right">
+                      <div class="carousel-main-box-right-left"><h3 class="carousel-main-box-right-left-heading-style">Adams Steve</h3>
+                      <p class="carousel-main-box-right-left-description">Essay Writing Dubai has undoubtedly secured its place among the best assignment and essay help
+                        providing websites, and my experience as a client reflects this accolade. Adams Steve here, and I
+                        couldn&#39;t be more satisfied with the exceptional service provided. The team&#39;s commitment to excellence
+                        is evident in every aspect, from the quality of work to timely delivery. If you&#39;re seeking a reliable and
+                        top-notch service, the company is undoubtedly a frontrunner.</p></div>
+                      <div class="carousel-main-box-right-right"><img src="images/review-first-image.webp" alt="Reviews Image" class="reviews-images"></div>
+                  </div>
+              </div>
+             
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </section>
+    <!-- ===== Reviews End ===== -->
+    <!-- ===== Second Horizontal Line Start ===== -->
+    <section id="second-horizontal-line" class="container-two">
+      <section class="inner-section">
+        <div class="second-horizontal-line-main-box">
+          <img src="images/three-color-line.png" alt="">
+        </div>
+      </section>
+    </section>
+    <!-- ===== Second Horizontal Line End ===== -->
+    <!-- ===== Simple Para Start ===== -->
+    <section id="simple-para" class="container-two">
+      <section class="inner-section">
+        <div class="simple-para-main-box">
+          <div class="simple-para-main-box-left">
+            <div class="simple-para-main-box-left-left">
+              <h2 class="simple-para-main-box-left-left-heading-style">A Specialized Expedition with Our Personal Essay
+                Writing Service Dubai</h2>
+            </div>
+            <div class="simple-para-main-box-left-right">
+              <p class="simple-para-main-box-left-right-description">Hop on a transformative journey of self-expression
+                with our dedicated team of professionals. As your trusted essay helper, we understand the nuances of
+                crafting fast essays that reflect your unique narrative.</p>
+              <p class="simple-para-main-box-left-right-description">Whether you need assistance in rewriting an essay
+                for a fresh perspective or require guidance in producing a compelling admission piece, our team is
+                dedicated to delivering excellence. For university students seeking a reliable essay service providing
+                platform, our commitment goes beyond providing assistance; we aim to empower your individual voice. With
+                a focus on personalized support, we ensure that your personal essays are not just written but crafted
+                with authenticity. Trust us to be your reliable resource for a trusted essay service that understands
+                the importance of your personal narrative in academic and admission contexts.
+              </p>
+            </div>
+          </div>
+          <div class="simple-para-main-box-left">
+            <div class="simple-para-main-box-left-left">
+              <h3 class="simple-para-main-box-left-left-heading-style">Our Fast and Affordable Essay Writing Service
+                Online
+              </h3>
+            </div>
+            <div class="simple-para-main-box-left-right">
+              <p class="simple-para-main-box-left-right-description">Embark on an educational voyage with our Swift and
+                Budget-Friendly Online Essay Writing Company, delivering unmatched assistance in essay writing for Dubai
+                and addressing the academic requirements of students across the UAE. Our proficient team, knowledgeable
+                in a variety of writing formats, guarantees that your essays are meticulously crafted with accuracy,
+                meeting the utmost standards of excellence. At EssayWritingDubai.ae, we master the art of swift delivery
+                without compromising on quality. If you need help sticking to a particular writing style or want expert
+                advice to improve your essays, our services are designed to enhance your academic journey. </p>
+              <p class="simple-para-main-box-left-right-description">We're dedicated to meeting the specific academic
+                needs of students, and our quick and affordable services are proof of our commitment to your success.
+                Feel the impact as we journey through academia together, making sure your essays aren't just written but
+                skillfully crafted to leave a lasting impression.
+              </p>
+              <p class="simple-para-main-box-left-right-description">We're dedicated to meeting the specific academic
+                needs of students, and our quick and affordable services are proof of our commitment to your success.
+                Feel the impact as we journey through academia together, making sure your essays aren't just written but
+                skillfully crafted to leave a lasting impression. Discover the change our expertise can bring to your
+                academic path, where we prioritize your future by setting a new benchmark for your academic path.</p>
+            </div>
+          </div>
+          <div class="simple-para-main-box-left">
+            <div class="simple-para-main-box-left-left">
+              <h3 class="simple-para-main-box-left-left-heading-style">Unveiling the Essence of Our Bespoke UAE Essay
+                Writer’s Services</h3>
+            </div>
+            <div class="simple-para-main-box-left-right">
+              <p class="simple-para-main-box-left-right-description">As pioneers in the realm of urgent essay writing
+                services, our expert team is devoted to delivering exceptional essays tailored to your immediate
+                academic requirements. Rely on us as your primary source for helping you out with the most complex
+                essays of yours, as we work with accurate research guides and authentic information. Our proficient
+                experts, well-versed in different subjects, bring a wealth of knowledge to every task, ensuring that
+                your urgent essays are not only completed but also delievered to you on your specific day and time. For
+                those seeking valuable insights and guidance on efficient essay writing, our website stands out among
+                others, providing tips and advice from seasoned professionals. So, next time you are looking for any
+                professional essay providing company and don’t know where to go, we are your go-to option.</p>
+            </div>
+          </div>
+          <div class="expertise-of-essay-writing-btn">
+            <a href="#"><button
+                class="expertise-of-essay-writing-btn-style adjust-btn-style add-new-bg-and-border-color">Let's
+                Talk</button></a>
+            <a href="#"><button class="expertise-of-essay-writing-btn-style">Order Right Now</button></a>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- ===== Simple Para End ===== -->
+    <!-- ===== Second Horizontal Line Start ===== -->
+    <section id="second-horizontal-line" class="container-two">
+      <section class="inner-section">
+        <div class="second-horizontal-line-main-box">
+          <img src="images/three-color-line.png" alt="">
+        </div>
+      </section>
+    </section>
+    <!-- ===== Second Horizontal Line End ===== -->
+    <!-- ===== Services Through Out Start ===== -->
+    <section id="services-through-out" class="container-two">
+      <section class="inner-section">
+        <div class="services-through-out-main-box">
+          <div class="services-through-out-main-box-left">
+          </div>
+          <div class="services-through-out-main-box-right">
+            <h2 class="services-through-out-main-box-right-heading-style">Extending Diversified Academic Writing Help
+              Services throughout the UAE
+            </h2>
+            <p class="services-through-out-main-box-right-description">Our team of experienced PhD writers and Masters
+              Writers ensures a wealth of knowledge in every task, providing specialized expertise to elevate your
+              academic experience. In the realm of academic writing help services in the UAE, we stand as a beacon of
+              reliability and proficiency. Whether you're seeking assistance with research papers, essays, or any
+              academic endeavour, our team is equipped to deliver top-tier quality tailored to your specific
+              requirements. The mastery exhibited by our PhD writers and Masters writers ensures a thorough
+              understanding of diverse subjects, guaranteeing excellence in every piece. Trust us as your dedicated
+              partner in achieving academic success, where diversity, expertise, and high-quality assistance converge
+              seamlessly for a truly exceptional educational journey throughout the UAE.</p>
+            <div class="expertise-of-essay-writing-btn adjust-flex">
+              <a href="#"><button
+                  class="expertise-of-essay-writing-btn-style adjust-btn-style add-new-bg-and-border-color">Let's
+                  Talk</button></a>
+              <a href="#"><button class="expertise-of-essay-writing-btn-style">Order Right Now</button></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- ===== Services Through Out End ===== -->
+    <!-- ===== Faqs Start ===== -->
+    <section id="faqs" class="container-two">
+      <section class="inner-section">
+        <div class="faqs-main-box">
+          <div class="faqs-main-box-heading-sub-box">
+            <h5 class="faqs-main-box-heading-sub-box-heading-style">Answering Your Most Asked Queries About Our
+              Operating Phenomenon</h5>
+            <p class="faqs-main-box-heading-sub-box-description">Delve into the intricacies of our operating phenomenon
+              as we answer your most-asked queries, unraveling the magic behind our assignment maker expertise.</p>
+          </div>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+
+                  1- Can you handle urgent essay writing orders with tight deadlines?
+
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Absolutely, we specialize in handling urgent essay writing orders with tight deadlines. Our dedicated
+                  team of experienced writers is adept at delivering high-quality essays promptly, ensuring that you
+                  meet your deadlines without compromising on excellence. Whether you have a last-minute assignment or
+                  require urgent essay assistance, our efficient process and commitment to precision allow us to provide
+                  swift and reliable services. Trust us to navigate the urgency of your academic needs with proficiency
+                  and deliver exceptional essays tailored to your requirements.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+
+                  2- Is Essay Writing Dubai Safe and Confidential to Use?
+
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Yes, EssayWritingDubai.ae prioritizes the safety and confidentiality of its users. We implement robust
+                  security measures to safeguard your personal information and ensure privacy. Our platform adheres to
+                  strict ethical standards, and all interactions, transactions, and details are treated with utmost
+                  confidentiality. You can trust our service as a secure and reliable service, committed to providing a
+                  confidential and safe environment for all your academic needs.
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+
+                  3- What subjects or academic levels do your essay writing services cover?
+
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Essay Writing Dubai covers a wide range of subjects and academic levels. Our services extend across
+                  disciplines, including but not limited to humanities, sciences, business, and more. Whether you're a
+                  high school student, pursuing a bachelor's degree, or engaged in advanced studies at the master's or
+                  Ph.D. level, our team of experts is equipped to handle diverse academic requirements. We tailor our
+                  services to cater to the unique needs of each academic level and subject, ensuring comprehensive and
+                  top-notch assistance throughout your educational journey.
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+
+                  4- Are your essay writing services affordable? Do EssayWritingDubai offer any discounts?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Yes, Essay Writing Dubai is committed to providing affordable essay writing services. We understand
+                  the financial constraints of students and offer competitive pricing without compromising on quality.
+                  Additionally, for first-time orders, we provide a generous discount ranging from 20% to 30%. This
+                  discount reflects our dedication to making high-quality academic assistance accessible to all
+                  students. Trust us for cost-effective solutions that prioritize excellence and affordability, ensuring
+                  that you receive top-notch service at budget-friendly rates, especially with our exclusive first-order
+                  discounts.
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- ===== Faqs End ===== -->
+  </main>
+  <!-- ===== Main End ===== -->
+  <!-- ===== Footer Start ===== -->
+  <footer>
+    <section id="footer" class="container-two">
+      <section class="inner-section">
+        <div class="footer-main-box">
+          <div class="footer-main-box-first-box">
+            <img src="images/footer-essay-writing-logo.webp" alt="ESSAY WRITING DUBAI LOGO" class="essay-writing-footer-logo">
+            <p class="footer-main-box-first-box-description">Our materials aim to promote academic excellence as
+              valuable study aids. Clients must responsibly use our services in accordance with their educational
+              institution's ethics.</p>
+            <div class="social-media-icon-box">
+              <div class="social-media-icon-box-sub-box">
+              <a href="#">  <img src="images/facebook-logo.webp" alt="" class="facebook-image"></a>
+              </div>
+              <div class="social-media-icon-box-sub-box">
+              <a href="#">  <img src="images/instagram-logo.webp" alt="" class="instagram-image"></a>
+              </div>
+              <div class="social-media-icon-box-sub-box">
+              <a href="#"> <img src="images/twiter-logo.webp" alt="" class="twiter-image"></a> 
+              </div>
+              <div class="social-media-icon-box-sub-box">
+               <a href="#"> <img src="images/linkdin-logo.webp" alt="" class="linkdin-image"></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-main-box-first-box  add-width">
+            <h2 class="footer-main-box-first-box-heading-style">SERVICES</h2>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="personal-statement-writer">Personal Statement Writer</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="research-paper-help">Research Paper Help </a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Dissertation Writing</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">CIPD Assignment</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">HND Assignment</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Thesis Writing</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Research Paper</a></p>
+          </div>
+          <div class="footer-main-box-first-box  adjust-width">
+            <h2 class="footer-main-box-first-box-heading-style">SUBJECT</h2>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Nursing</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Business</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Engineering</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Computer</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Programming</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Biostatistics</a></p>
+          </div>
+          <div class="footer-main-box-first-box  adjust-width">
+            <h2 class="footer-main-box-first-box-heading-style">POLICIES</h2>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="about">About Us</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="order">Order</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="pricing">Pricing</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="pricing">Privacy Policy</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="term-and-condition">Terms & Condition</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Blogs</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#reviews">Reviews</a></p>
+          </div>
+          <div class="footer-main-box-first-box ">
+            <h2 class="footer-main-box-first-box-heading-style">Contact</h2>
+            <p class="footer-main-box-first-box-description adjust-text"><i class='bx bxs-envelope'></i><a
+                href="mailto:info@essaywritingdubai.ae">info@essaywritingdubai.ae</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><i class='bx bxl-whatsapp'
+                style='color:#ffffff'></i><a href="https://wa.me/971553745389">+971553745389</a></p>
+            <div class="play-store-icon-box"><img src="images/googel-play-icon.png" alt=""
+                class="play-store-icon-box-img"></div>
+            <div class="play-store-icon-box"><img src="images/app-store-icon.png" alt=""
+                class="play-store-icon-box-img"></div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="contect-number" class="container-two">
+      <section class="inner-section">
+        <div class="contect-number-main-box">
+          <div class="contect-number-main-box-left">
+            <div class="contect-number-main-box-left-left">
+              <p class="contect-number-main-box-left-left-description"><i class='bx bxs-envelope'></i><a
+                  href="mailto:info@essaywritingdubai.ae">info@essaywritingdubai.ae</a></p>
+            </div>
+            <div class="contect-number-main-box-left-right">
+              <p class="contect-number-main-box-left-right-description"><i class='bx bxl-whatsapp'
+                  style='color:#ffffff'></i><a href="https://wa.me/971553745389">+971553745389</a></p>
+            </div>
+
+          </div>
+          <div class="contect-number-main-box-right">
+            <img src="images/peyment img.png" alt="">
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="copy-right" class="container-two">
+      <section class="inner-section">
+        <div class="copy-right-main-box">
+          <p class="copy-right-main-box-description">Copyright © 2024 All Rights Reserved ( <a href="/"> Essay Writing
+              Dubai </a> )</p>
+        </div>
+      </section>
+    </section>
+  </footer>
+  <!-- ===== Footer End ===== -->
+
+  <!-- js script  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

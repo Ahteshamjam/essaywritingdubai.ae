@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- ===== Bootstrap Link ====== -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+  <!-- ===== Box Icon Link ====== -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- ===== Google Fonts ====== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+  <!-- ===== My Css Link ====== -->
+  <link rel="stylesheet" href="style.css">
+    <title>Pricing</title>
+</head>
+<body>
+ <!-- ===== Header Start ===== -->
+ <header>
+  <section id="header" class="container-two">
+    <div class="inner-section">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/essay-writing-logo.webp" alt="ESSAY WRITING DUBAI LOGO" class="essay-writing-dubai-logo-style"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index">Home</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="personal-statement-writer">Personal Statement Writer</a></li>
+                  <li><a class="dropdown-item" href="research-paper-help">Research Paper Help </a></li>
+                  <li><a class="dropdown-item" href="#">Dissertation Writing</a></li>
+                  <li><a class="dropdown-item" href="#">Thesis Help</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+             <button class="btn btn-outline-success add-bg-and-hover-effect" type="submit"><a href="order">Order Now</a></button> 
+              <a href="#"><button class="btn btn-outline-success" type="submit">Let's Talk</button></a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+</header>
+<!-- ===== Header End ===== -->
+  <!-- ===== Main Start ===== -->
+  <main>
+   <!-- ===== Pricing Hero Start ===== -->
+   <section id="about-hero" class="container-two bg-color-chnage">
+    <section class="inner-section">
+        <div class="about-hero-main-box">
+            <div class="about-hero-main-box-sub-box">
+                <h2 class="about-hero-main-box-sub-box-heading-style">PRICING/PACKAGES</h2>
+                <p class="about-hero-main-box-sub-box-description">Looking for essay help? You are at the right place! We provide plagiarism free and professionally written in Dubai. Order now or chat with our expert writers for details.</p>
+                <a href="#"><button class="about-hero-main-box-sub-box-btn-style">Get Started Now</button></a>
+            </div>
+        </div>
+    </section>
+</section>
+ <!-- ===== Pricing Hero End ===== -->
+ <!-- ===== Acadmic Start ===== -->
+<section id="acadmic" class="container-two">
+    <section class="inner-section">
+        <div class="acadmic-main-box">
+            <p class="acadmic-main-box-description">ACADMIC WRITING</p>
+            <p class="acadmic-main-box-description">COPY WRITING</p>
+            <p class="acadmic-main-box-description">ADMISSION SERVICES</p>
+            <p class="acadmic-main-box-description">DISSERTATION SERVICE</p>
+        </div>
+    </section>
+</section> 
+ <!-- ===== Acadmic End ===== -->
+ <!-- ===== Table Start ===== -->
+ <section id="table" class="container-two">
+    <section class="inner-section">
+        <div class="table-main-box">
+            <table>
+                <thead>
+                    <tr class="table-row">
+                    <th class="table-heading">Deadlines</th>
+                    <th class="table-heading">Collage</th>
+                    <th class="table-heading">Undergraduate</th>
+                    <th class="table-heading">Master</th>
+                    <th class="table-heading">Php</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-row row-bg-color">
+                        <td class="table-deata">30 Days</td>
+                        <td class="table-deata">AED 30</td>
+                        <td class="table-deata">AED 40</td>
+                        <td class="table-deata">AED 50</td>
+                        <td class="table-deata">AED 60</td>
+                        
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-deata">30 Days</td>
+                        <td class="table-deata">AED 30</td>
+                        <td class="table-deata">AED 40</td>
+                        <td class="table-deata">AED 50</td>
+                        <td class="table-deata">AED 60</td>
+                    </tr>
+                    <tr class="table-row row-bg-color">
+                        <td class="table-deata">30 Days</td>
+                        <td class="table-deata">AED 30</td>
+                        <td class="table-deata">AED 40</td>
+                        <td class="table-deata">AED 50</td>
+                        <td class="table-deata">AED 60</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-deata">30 Days</td>
+                        <td class="table-deata">AED 30</td>
+                        <td class="table-deata">AED 40</td>
+                        <td class="table-deata">AED 50</td>
+                        <td class="table-deata">AED 60</td>
+                    </tr>
+                    <tr class="table-row row-bg-color">
+                        <td class="table-deata">30 Days</td>
+                        <td class="table-deata">AED 30</td>
+                        <td class="table-deata">AED 40</td>
+                        <td class="table-deata">AED 50</td>
+                        <td class="table-deata">AED 60</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-deata">30 Days</td>
+                        <td class="table-deata">AED 30</td>
+                        <td class="table-deata">AED 40</td>
+                        <td class="table-deata">AED 50</td>
+                        <td class="table-deata">AED 60</td>
+                    </tr>
+                    <tr class="table-row row-bg-color">
+                        <td class="table-deata">30 Days</td>
+                        <td class="table-deata">AED 30</td>
+                        <td class="table-deata">AED 40</td>
+                        <td class="table-deata">AED 50</td>
+                        <td class="table-deata">AED 60</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+ </section>
+ <!-- ===== Table End ===== -->
+ <!-- ===== Pricing Level Start ===== -->
+ <section id="pricing-level" class="container-two">
+    <section class="inner-section">
+        <div class="pricing-level-main-box">
+            <div class="pricing-level-main-box-sub-box">
+            <h2 class="pricing-level-main-box-sub-box-heading-style">Silver</h2>
+            <img src="images/level-pricing-image.png" alt="Pricing Level Image" class="pricing-level-first-image-style">
+            <p class="pricing-level-main-box-sub-box-description"><img src="images/level-circle-icon.png" alt="Pricing Level Icon IMage">Lorem, ipsum dolor sit amet</p>
+            <p class="pricing-level-main-box-sub-box-description add-margin-top"><img src="images/level-circle-icon.png" alt="Pricing Level Icon IMage">Lorem, ipsum dolor sit amet</p>
+            <p class="pricing-level-main-box-sub-box-description add-margin-top"><img src="images/level-circle-icon.png" alt="Pricing Level Icon IMage">Lorem, ipsum dolor sit amet</p>
+            <p class="pricing-level-main-box-sub-box-description add-margin-top"><img src="images/level-circle-icon.png" alt="Pricing Level Icon IMage">Lorem, ipsum dolor sit amet</p>
+            <input type="submit" value="Buy Now" class="level-pricing-btn-style">
+            </div>
+            <div class="pricing-level-main-box-sub-box center-box">
+            <h2 class="pricing-level-main-box-sub-box-heading-style">Silver</h2>
+            <img src="images/level-pricing-image-center.png" alt="Pricing Level Image" class="pricing-level-first-image-style">
+            <p class="pricing-level-main-box-sub-box-description"><img src="images/level-circle-icon.png" alt="Pricing Level Icon IMage">Lorem, ipsum dolor sit amet</p>
+            <p class="pricing-level-main-box-sub-box-description add-margin-top"><img src="images/level-circle-icon.png" alt="Pricing Level Icon IMage">Lorem, ipsum dolor sit amet</p>
+            <p class="pricing-level-main-box-sub-box-description add-margin-top"><img src="images/level-circle-icon.png" alt="Pricing Level Icon IMage">Lorem, ipsum dolor sit amet</p>
+            <p class="pricing-level-main-box-sub-box-description add-margin-top"><img src="images/level-circle-icon.png" alt="Pricing Level Icon IMage">Lorem, ipsum dolor sit amet</p>
+            <input type="submit" value="Buy Now" class="level-pricing-btn-style">
+            </div>
+            <div class="pricing-level-main-box-sub-box">
+            <h2 class="pricing-level-main-box-sub-box-heading-style">Silver</h2>
+            <img src="images/level-pricing-green.png" alt="Pricing Level Image" class="pricing-level-first-image-style">
+            <p class="pricing-level-main-box-sub-box-description"><img src="images/level-circle-icon.png" alt="Pricing Level Icon IMage">Lorem, ipsum dolor sit amet</p>
+            <p class="pricing-level-main-box-sub-box-description add-margin-top"><img src="images/level-circle-icon.png" alt="Pricing Level Icon IMage">Lorem, ipsum dolor sit amet</p>
+            <p class="pricing-level-main-box-sub-box-description add-margin-top"><img src="images/level-circle-icon.png" alt="Pricing Level Icon IMage">Lorem, ipsum dolor sit amet</p>
+            <p class="pricing-level-main-box-sub-box-description add-margin-top"><img src="images/level-circle-icon.png" alt="Pricing Level Icon IMage">Lorem, ipsum dolor sit amet</p>
+            <input type="submit" value="Buy Now" class="level-pricing-btn-style">
+            </div>
+        </div>
+    </section>
+ </section>
+ <!-- ===== Pricing Level End ===== -->
+  <!-- ===== Cheap Essay Writing Start ===== -->
+  <section id="cheap-essay-writing" class="container-two">
+    <section class="inner-section">
+      <img src="images/counter-left.png" alt="" class="cheap-essay-writing-left-ero">
+      <img src="images/order-bg-ccircle.png" alt="" class="cheap-essay-writing-first-circle">
+
+      <div class="cheap-essay-writing-main-box">
+        <div class="cheap-essay-writing-main-box-heading-box">
+          <h2 class="cheap-essay-writing-main-box-heading-style">Navigating Academia with Our Cheap Essay Writing
+            Service Dubai</h2>
+          <p class="cheap-essay-writing-main-box-description">Take off on an academic journey with our economic
+            excellence, where we proudly stand as the cheapest yet reliable service provider. Buy an essay from us and
+            experience unmatched quality at budget-friendly rates. Explore our samples to witness the depth and
+            precision we bring to every piece.</p>
+          <div class="expertise-of-essay-writing-btn">
+            <a href="#"><button class="expertise-of-essay-writing-btn-style adjust-btn-style">Let's Talk</button></a>
+            <a href="#"><button class="expertise-of-essay-writing-btn-style">Order Right Now</button></a>
+          </div>
+        </div>
+
+      </div>
+      <img src="images/order-bg-ccircle.png" alt="" class="cheap-essay-writing-second-circle">
+      <img src="images/counter-right.png" alt="" class="cheap-essay-writing-right-ero">
+
+    </section>
+  </section>
+  <!-- ===== Cheap Essay Writing End ===== -->
+  <!-- ===== Academic Journey Start ===== -->
+  <section id="academic-journey" class="container-two">
+    <section class="inner-section">
+      <div class="academic-journey-heading-box">
+        <h2 class="academic-journey-heading-box-heading-style">Elevate Your Academic Journey with Top-Tier Essay
+          Writing Help in Dubai</h2>
+      </div>
+      <div class="academic-journey-main-box">
+        <div class="academic-journey-main-box-sub-box">
+          <img src="images/search-icon.png" alt="" class="academic-journey-main-box-sub-box-icon-style">
+          <p class="academic-journey-main-box-sub-box-description">Customer Service Available 24/7</p>
+        </div>
+        <div class="academic-journey-main-box-sub-box">
+          <img src="images/edit.png" alt="" class="academic-journey-main-box-sub-box-icon-style">
+          <p class="academic-journey-main-box-sub-box-description">Affordability at its Best</p>
+        </div>
+        <div class="academic-journey-main-box-sub-box">
+          <img src="images/note.png" alt="" class="academic-journey-main-box-sub-box-icon-style">
+          <p class="academic-journey-main-box-sub-box-description">Timely Submissions with 100% Quality </p>
+        </div>
+        <div class="academic-journey-main-box-sub-box">
+          <img src="images/massage-time.png" alt=""
+            class="academic-journey-main-box-sub-box-icon-style adjust-icon-size">
+          <p class="academic-journey-main-box-sub-box-description">Plagiarism-free Content Delivery</p>
+        </div>
+        <div class="academic-journey-main-box-sub-box">
+          <img src="images/profile.png" alt="" class="academic-journey-main-box-sub-box-icon-style">
+          <p class="academic-journey-main-box-sub-box-description"> Expert Writer Transparent Assistance</p>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- ===== Academic Journey End ===== -->
+   <!-- ===== Faqs Start ===== -->
+   <section id="faqs" class="container-two">
+    <section class="inner-section">
+      <div class="faqs-main-box">
+        <div class="faqs-main-box-heading-sub-box">
+          <h5 class="faqs-main-box-heading-sub-box-heading-style">Answering Your Most Asked Queries About Our
+            Operating Phenomenon</h5>
+          <p class="faqs-main-box-heading-sub-box-description">Delve into the intricacies of our operating phenomenon
+            as we answer your most-asked queries, unraveling the magic behind our assignment maker expertise.</p>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+
+                1- Can you handle urgent essay writing orders with tight deadlines?
+
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Absolutely, we specialize in handling urgent essay writing orders with tight deadlines. Our dedicated
+                team of experienced writers is adept at delivering high-quality essays promptly, ensuring that you
+                meet your deadlines without compromising on excellence. Whether you have a last-minute assignment or
+                require urgent essay assistance, our efficient process and commitment to precision allow us to provide
+                swift and reliable services. Trust us to navigate the urgency of your academic needs with proficiency
+                and deliver exceptional essays tailored to your requirements.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+
+                2- Is Essay Writing Dubai Safe and Confidential to Use?
+
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Yes, EssayWritingDubai.ae prioritizes the safety and confidentiality of its users. We implement robust
+                security measures to safeguard your personal information and ensure privacy. Our platform adheres to
+                strict ethical standards, and all interactions, transactions, and details are treated with utmost
+                confidentiality. You can trust our service as a secure and reliable service, committed to providing a
+                confidential and safe environment for all your academic needs.
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+
+                3- What subjects or academic levels do your essay writing services cover?
+
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Essay Writing Dubai covers a wide range of subjects and academic levels. Our services extend across
+                disciplines, including but not limited to humanities, sciences, business, and more. Whether you're a
+                high school student, pursuing a bachelor's degree, or engaged in advanced studies at the master's or
+                Ph.D. level, our team of experts is equipped to handle diverse academic requirements. We tailor our
+                services to cater to the unique needs of each academic level and subject, ensuring comprehensive and
+                top-notch assistance throughout your educational journey.
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+
+                4- Are your essay writing services affordable? Do EssayWritingDubai offer any discounts?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Yes, Essay Writing Dubai is committed to providing affordable essay writing services. We understand
+                the financial constraints of students and offer competitive pricing without compromising on quality.
+                Additionally, for first-time orders, we provide a generous discount ranging from 20% to 30%. This
+                discount reflects our dedication to making high-quality academic assistance accessible to all
+                students. Trust us for cost-effective solutions that prioritize excellence and affordability, ensuring
+                that you receive top-notch service at budget-friendly rates, especially with our exclusive first-order
+                discounts.
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- ===== Faqs End ===== -->
+  </main>
+  <!-- ===== Main END ===== -->
+  <!-- ===== Footer Start ===== -->
+  <footer>
+    <section id="footer" class="container-two">
+      <section class="inner-section">
+        <div class="footer-main-box">
+          <div class="footer-main-box-first-box">
+            <img src="images/footer-essay-writing-logo.webp" alt="ESSAY WRITING DUBAI LOGO" class="essay-writing-footer-logo">
+            <p class="footer-main-box-first-box-description">Our materials aim to promote academic excellence as
+              valuable study aids. Clients must responsibly use our services in accordance with their educational
+              institution's ethics.</p>
+            <div class="social-media-icon-box">
+              <div class="social-media-icon-box-sub-box">
+              <a href="#">  <img src="images/facebook-logo.webp" alt="" class="facebook-image"></a>
+              </div>
+              <div class="social-media-icon-box-sub-box">
+              <a href="#">  <img src="images/instagram-logo.webp" alt="" class="instagram-image"></a>
+              </div>
+              <div class="social-media-icon-box-sub-box">
+              <a href="#"> <img src="images/twiter-logo.webp" alt="" class="twiter-image"></a> 
+              </div>
+              <div class="social-media-icon-box-sub-box">
+               <a href="#"> <img src="images/linkdin-logo.webp" alt="" class="linkdin-image"></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-main-box-first-box  add-width">
+            <h2 class="footer-main-box-first-box-heading-style">SERVICES</h2>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="personal-statement-writer">Personal Statement Writer</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="research-paper-help">Research Paper Help </a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Dissertation Writing</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">CIPD Assignment</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">HND Assignment</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Thesis Writing</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Research Paper</a></p>
+          </div>
+          <div class="footer-main-box-first-box  adjust-width">
+            <h2 class="footer-main-box-first-box-heading-style">SUBJECT</h2>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Nursing</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Business</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Engineering</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Computer</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Programming</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Biostatistics</a></p>
+          </div>
+          <div class="footer-main-box-first-box  adjust-width">
+            <h2 class="footer-main-box-first-box-heading-style">POLICIES</h2>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="about">About Us</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="order">Order</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="pricing">Pricing</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="pricing">Privacy Policy</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="term-and-condition">Terms & Condition</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Blogs</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#reviews">Reviews</a></p>
+          </div>
+          <div class="footer-main-box-first-box ">
+            <h2 class="footer-main-box-first-box-heading-style">Contact</h2>
+            <p class="footer-main-box-first-box-description adjust-text"><i class='bx bxs-envelope'></i><a
+                href="mailto:info@essaywritingdubai.ae">info@essaywritingdubai.ae</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><i class='bx bxl-whatsapp'
+                style='color:#ffffff'></i><a href="https://wa.me/971553745389">+971553745389</a></p>
+            <div class="play-store-icon-box"><img src="images/googel-play-icon.png" alt=""
+                class="play-store-icon-box-img"></div>
+            <div class="play-store-icon-box"><img src="images/app-store-icon.png" alt=""
+                class="play-store-icon-box-img"></div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="contect-number" class="container-two">
+      <section class="inner-section">
+        <div class="contect-number-main-box">
+          <div class="contect-number-main-box-left">
+            <div class="contect-number-main-box-left-left">
+              <p class="contect-number-main-box-left-left-description"><i class='bx bxs-envelope'></i><a
+                  href="mailto:info@essaywritingdubai.ae">info@essaywritingdubai.ae</a></p>
+            </div>
+            <div class="contect-number-main-box-left-right">
+              <p class="contect-number-main-box-left-right-description"><i class='bx bxl-whatsapp'
+                  style='color:#ffffff'></i><a href="https://wa.me/971553745389">+971553745389</a></p>
+            </div>
+
+          </div>
+          <div class="contect-number-main-box-right">
+            <img src="images/peyment img.png" alt="">
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="copy-right" class="container-two">
+      <section class="inner-section">
+        <div class="copy-right-main-box">
+          <p class="copy-right-main-box-description">Copyright © 2024 All Rights Reserved ( <a href="/"> Essay Writing
+              Dubai </a> )</p>
+        </div>
+      </section>
+    </section>
+  </footer>
+  <!-- ===== Footer End ===== -->
+
+</body>
+</html>

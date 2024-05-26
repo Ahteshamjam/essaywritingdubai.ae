@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- ===== Bootstrap Link ====== -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"></script>
+<!-- ===== Box Icon Link ====== -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<!-- ===== Google Fonts ====== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+  rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+  rel="stylesheet">
+<!-- ===== My Css Link ====== -->
+<link rel="stylesheet" href="style.css">
+    <title>Privacy Policy</title>
+</head>
+<body>
+ <!-- ===== Header Start ===== -->
+ <header>
+  <section id="header" class="container-two">
+    <div class="inner-section">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/essay-writing-logo.webp" alt="ESSAY WRITING DUBAI LOGO" class="essay-writing-dubai-logo-style"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index">Home</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="personal-statement-writer">Personal Statement Writer</a></li>
+                  <li><a class="dropdown-item" href="research-paper-help">Research Paper Help </a></li>
+                  <li><a class="dropdown-item" href="#">Dissertation Writing</a></li>
+                  <li><a class="dropdown-item" href="#">Thesis Help</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+             <button class="btn btn-outline-success add-bg-and-hover-effect" type="submit"><a href="order">Order Now</a></button> 
+              <a href="#"><button class="btn btn-outline-success" type="submit">Let's Talk</button></a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+</header>
+<!-- ===== Header End ===== -->
+  <!-- ===== Main Start ===== -->
+  <main>
+   <!-- ===== About Hero Start ===== -->
+   <section id="about-hero" class="container-two">
+    <section class="inner-section">
+        <div class="about-hero-main-box">
+            <div class="about-hero-main-box-sub-box">
+                <h2 class="about-hero-main-box-sub-box-heading-style">PRIVACY POLICY</h2>
+            </div>
+        </div>
+    </section>
+</section>
+ <!-- ===== About Hero End ===== -->
+ <!-- ===== About Content Start ===== -->
+ <section id="about-content" class="container-two">
+    <section class="inner-section">
+        <div class="about-content-main-box">
+            <div class="about-content-main-box-sub-box">
+            <h2 class="about-content-main-box-heading-style">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+            <p class="about-content-main-box-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum nesciunt consequuntur accusantium eius inventore, eum ducimus culpa, beatae eveniet deserunt aperiam perspiciatis, veniam molestiae ipsum maiores voluptatem? Explicabo doloremque numquam, fugit beatae illo quibusdam enim nisi facere ea molestias? Laborum, corporis id dicta ducimus tenetur culpa perferendis incidunt inventore enim nam ex minima iusto magnam quod? Nemo doloremque, quasi alias animi voluptatem cum fugit.</p>
+            <p class="about-content-main-box-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum nesciunt consequuntur accusantium eius inventore, eum ducimus culpa, beatae eveniet deserunt aperiam perspiciatis, veniam molestiae ipsum maiores voluptatem? Explicabo doloremque numquam, fugit beatae illo quibusdam enim nisi facere ea molestias? Laborum, corporis id dicta ducimus tenetur culpa perferendis incidunt inventore enim nam ex minima iusto magnam quod? Nemo doloremque, quasi alias animi voluptatem cum fugit.</p>
+            <h2 class="about-content-main-box-heading-style add-margin-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+            <p class="about-content-main-box-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum nesciunt consequuntur accusantium eius inventore, eum ducimus culpa, beatae eveniet deserunt aperiam perspiciatis, veniam molestiae ipsum maiores voluptatem? Explicabo doloremque numquam, fugit beatae illo quibusdam enim nisi facere ea molestias? Laborum, corporis id dicta ducimus tenetur culpa perferendis incidunt inventore enim nam ex minima iusto magnam quod? Nemo doloremque, quasi alias animi voluptatem cum fugit.</p>
+            <p class="about-content-main-box-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum nesciunt consequuntur accusantium eius inventore, eum ducimus culpa, beatae eveniet deserunt aperiam perspiciatis, veniam molestiae ipsum maiores voluptatem? Explicabo doloremque numquam, fugit beatae illo quibusdam enim nisi facere ea molestias? Laborum, corporis id dicta ducimus tenetur culpa perferendis incidunt inventore enim nam ex minima iusto magnam quod? Nemo doloremque, quasi alias animi voluptatem cum fugit.</p>
+            <h2 class="about-content-main-box-heading-style add-margin-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+            <p class="about-content-main-box-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum nesciunt consequuntur accusantium eius inventore, eum ducimus culpa, beatae eveniet deserunt aperiam perspiciatis, veniam molestiae ipsum maiores voluptatem? Explicabo doloremque numquam, fugit beatae illo quibusdam enim nisi facere ea molestias? Laborum, corporis id dicta ducimus tenetur culpa perferendis incidunt inventore enim nam ex minima iusto magnam quod? Nemo doloremque, quasi alias animi voluptatem cum fugit.</p>
+            <p class="about-content-main-box-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum nesciunt consequuntur accusantium eius inventore, eum ducimus culpa, beatae eveniet deserunt aperiam perspiciatis, veniam molestiae ipsum maiores voluptatem? Explicabo doloremque numquam, fugit beatae illo quibusdam enim nisi facere ea molestias? Laborum, corporis id dicta ducimus tenetur culpa perferendis incidunt inventore enim nam ex minima iusto magnam quod? Nemo doloremque, quasi alias animi voluptatem cum fugit.</p>
+        </div>
+        </div>
+    </section>
+ </section>
+ <!-- ===== About Content End ===== -->
+  </main>
+  <!-- ===== Main End ===== -->
+  <!-- ===== Footer Start ===== -->
+  <footer>
+    <section id="footer" class="container-two">
+      <section class="inner-section">
+        <div class="footer-main-box">
+          <div class="footer-main-box-first-box">
+            <img src="images/footer-essay-writing-logo.webp" alt="ESSAY WRITING DUBAI LOGO" class="essay-writing-footer-logo">
+            <p class="footer-main-box-first-box-description">Our materials aim to promote academic excellence as
+              valuable study aids. Clients must responsibly use our services in accordance with their educational
+              institution's ethics.</p>
+            <div class="social-media-icon-box">
+              <div class="social-media-icon-box-sub-box">
+              <a href="#">  <img src="images/facebook-logo.webp" alt="" class="facebook-image"></a>
+              </div>
+              <div class="social-media-icon-box-sub-box">
+              <a href="#">  <img src="images/instagram-logo.webp" alt="" class="instagram-image"></a>
+              </div>
+              <div class="social-media-icon-box-sub-box">
+              <a href="#"> <img src="images/twiter-logo.webp" alt="" class="twiter-image"></a> 
+              </div>
+              <div class="social-media-icon-box-sub-box">
+               <a href="#"> <img src="images/linkdin-logo.webp" alt="" class="linkdin-image"></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-main-box-first-box  add-width">
+            <h2 class="footer-main-box-first-box-heading-style">SERVICES</h2>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="personal-statement-writer">Personal Statement Writer</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="research-paper-help">Research Paper Help </a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Dissertation Writing</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">CIPD Assignment</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">HND Assignment</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Thesis Writing</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Research Paper</a></p>
+          </div>
+          <div class="footer-main-box-first-box  adjust-width">
+            <h2 class="footer-main-box-first-box-heading-style">SUBJECT</h2>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Nursing</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Business</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Engineering</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Computer</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Programming</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Biostatistics</a></p>
+          </div>
+          <div class="footer-main-box-first-box  adjust-width">
+            <h2 class="footer-main-box-first-box-heading-style">POLICIES</h2>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="about">About Us</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="order">Order</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="pricing">Pricing</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="pricing">Privacy Policy</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="term-and-condition">Terms & Condition</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#">Blogs</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><img src="images/substract.png" alt=""><a
+                href="#reviews">Reviews</a></p>
+          </div>
+          <div class="footer-main-box-first-box ">
+            <h2 class="footer-main-box-first-box-heading-style">Contact</h2>
+            <p class="footer-main-box-first-box-description adjust-text"><i class='bx bxs-envelope'></i><a
+                href="mailto:info@essaywritingdubai.ae">info@essaywritingdubai.ae</a></p>
+            <p class="footer-main-box-first-box-description adjust-text"><i class='bx bxl-whatsapp'
+                style='color:#ffffff'></i><a href="https://wa.me/971553745389">+971553745389</a></p>
+            <div class="play-store-icon-box"><img src="images/googel-play-icon.png" alt=""
+                class="play-store-icon-box-img"></div>
+            <div class="play-store-icon-box"><img src="images/app-store-icon.png" alt=""
+                class="play-store-icon-box-img"></div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="contect-number" class="container-two">
+      <section class="inner-section">
+        <div class="contect-number-main-box">
+          <div class="contect-number-main-box-left">
+            <div class="contect-number-main-box-left-left">
+              <p class="contect-number-main-box-left-left-description"><i class='bx bxs-envelope'></i><a
+                  href="mailto:info@essaywritingdubai.ae">info@essaywritingdubai.ae</a></p>
+            </div>
+            <div class="contect-number-main-box-left-right">
+              <p class="contect-number-main-box-left-right-description"><i class='bx bxl-whatsapp'
+                  style='color:#ffffff'></i><a href="https://wa.me/971553745389">+971553745389</a></p>
+            </div>
+
+          </div>
+          <div class="contect-number-main-box-right">
+            <img src="images/peyment img.png" alt="">
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="copy-right" class="container-two">
+      <section class="inner-section">
+        <div class="copy-right-main-box">
+          <p class="copy-right-main-box-description">Copyright © 2024 All Rights Reserved ( <a href="/"> Essay Writing
+              Dubai </a> )</p>
+        </div>
+      </section>
+    </section>
+  </footer>
+  <!-- ===== Footer End ===== -->
+
+</body>
+</html>

@@ -1,0 +1,2369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Raleway", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container-two {
+    width: 100%;
+    /* border: 2px solid black; */
+    padding: 50px 20px;
+    padding-bottom: 50px;
+}
+
+.inner-section {
+    width: 100%;
+    max-width: 1400px;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+
+/* ===== Nav Section Start  ===== */
+#header {
+    padding: 0px 20px;
+    background: #f8f9fa;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+
+a.nav-link {
+    margin-right: 30px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+a.navbar-brand {
+    margin-right: 30px;
+}
+
+.d-flex {
+    display: flex !important;
+    gap: 20px;
+}
+
+.btn {
+    transition: all .4s ease-in-out;
+    padding: 10px 30px;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 10px #007332;
+}
+
+.add-bg-and-hover-effect {
+    background: black;
+    color: white;
+    border: 1px solid black !important;
+    transition: all .4s ease-in-out;
+}
+
+.add-bg-and-hover-effect:hover {
+    background: black;
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 10px black;
+}
+
+/* ===== Nav Section End  ===== */
+/* ===== Hero Section Start  ===== */
+#hero {
+    background-image: url("images/baner-image-2.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 165px;
+    padding-bottom: 419px;
+    position: relative;
+    z-index: 0;
+}
+
+.hero-main-box {
+    width: 100%;
+    /* border: 2px solid purple; */
+    display: flex;
+}
+
+.hero-main-box-left {
+    width: 50%;
+    /* border: 2px solid olivedrab; */
+}
+
+.hero-main-box-right {
+    width: 50%;
+    /* border: 2px solid rgb(169, 253, 0); */
+}
+
+.hero-main-box-right-heading-style {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.hero-main-box-right-description {
+    color: white;
+
+}
+
+.hero-main-box-right-btn-style {
+    padding: 15px 30px;
+    background: red;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    transition: all .4s ease-in-out;
+    margin-top: 20px;
+}
+
+.hero-main-box-right-btn-style:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 10px #007332;
+}
+
+/* ===== Hero Section End  ===== */
+/* ===== Calculator Box Start  ===== */
+.hero-calculator-box {
+    width: 90%;
+    /* border: 2px solid purple; */
+    background: white;
+    border-radius: 20px;
+    padding: 30px 80px;
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    right: 20px;
+    margin: auto;
+    box-shadow: 4px 4px 10px black;
+}
+
+.discover-prices {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+
+.hero-calculator-box-sub-box {
+    width: 100%;
+    display: flex;
+}
+
+.hero-calculator-box-sub-box-left {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+}
+
+.hero-calculator-box-sub-box-right {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #e6e6e6;
+    border-radius: 20px;
+}
+
+.hero-calculator-box-sub-box-left select {
+    width: 45%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    outline: none;
+}
+
+.hero-calculator-box-sub-box-left form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 50px;
+}
+
+.total-price-text-heading {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+
+p.total-price-box-description {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+span.count-price {
+    font-size: 24px;
+    color: #007332;
+}
+
+.order-now-btn-box {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.order-now-btn-box form {
+    width: 100%;
+}
+
+.order-now-btn-box form a input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 20px;
+    transition: all .4s ease-in-out;
+}
+
+.order-now-btn-box form a input:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 10px black;
+}
+
+/* ===== Calculator Box End  ===== */
+/* ===== Offring Primer Start ===== */
+.offring-primer-main-box {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.offring-primer-main-box-left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-right: 0px;
+}
+
+.offring-primer-main-box-right {
+    width: 50%;
+    padding: 0px 0px;
+    padding-right: 70px;
+}
+
+.offring-primer-main-box-sub-box {
+    width: 763px;
+    position: absolute;
+    right: 60px;
+    bottom: -220px;
+    padding: 30px 50px;
+    background: #fc5757;
+}
+
+.offring-primer-main-box-sub-box-heading-style {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
+
+.offring-primer-main-box-sub-box-heading-style img {
+    width: 40px;
+    margin-right: 10px;
+    font-family: "Raleway", sans-serif;
+    filter: invert(1);
+}
+
+.offring-primer-main-box-sub-box-description {
+    margin-left: 38px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+/* ===== Offring Primer End ===== */
+/* Blank Place Fill Start */
+#blank-place-fill {
+    background: #007332;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    min-height: 390px;
+    overflow: hidden;
+}
+
+.blank-place-fill-main-box {
+    width: 100%;
+}
+
+.blank-place-fill-main-box-sub-box {
+    width: 50%;
+    padding-right: 80px;
+}
+
+.blank-place-fill-main-box-sub-box-description {
+    color: white;
+    margin: 0px;
+    margin-bottom: 9px;
+}
+
+.blank-place-fill-main-box-sub-box-heading-style {
+    font-weight: 800;
+    color: white;
+    margin-top: 30px;
+}
+
+/* Blank Place Fill End */
+/* Counter Start */
+section#counter {
+    background: #333;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 20px;
+    margin-top: 200px;
+}
+
+.counter-left-icon-image {
+    position: absolute;
+    width: 180px;
+    left: -30px;
+    top: 40px;
+}
+
+.counter-right-icon-image {
+    position: absolute;
+    width: 180px;
+    top: 40px;
+    right: -30px;
+}
+
+.counter-main-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+}
+.counter-main-box-sub-box {
+    width: 250px;
+}
+.counter-main-box-sub-box-heading-style {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family:  "Montserrat", sans-serif;
+}
+
+.counter-main-box-sub-box-description {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Counter End */
+/* Expertise Of Essay Writing Start */
+#expertise-of-essay-writing {
+    background: #007332;
+    position: relative;
+    overflow: hidden;
+}
+
+.expertise-of-essay-writing-first-circle-pic {
+    position: absolute;
+    left: -89px;
+}
+
+.expertise-of-essay-writing-second-circle-pic {
+    position: absolute;
+    right: -27px;
+    top: 162px;
+}
+
+.expertise-of-essay-writing-third-circle-pic {
+    position: absolute;
+    bottom: 60px;
+    left: 137px;
+}
+
+.expertise-of-essay-writing-main-box {
+    width: 85%;
+    /* border: 2px solid orchid; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 20px 0px;
+    margin-bottom: 20px;
+}
+
+.expertise-of-essay-writing-main-box-sub-box {
+    width: 233px;
+    /* border: 2px solid rgb(32, 7, 32); */
+    background-image: url("images/left-box-order-process.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 324px;
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+.second-image {
+    background-image: url("images/center-box.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 324px;
+}
+
+.right-box {
+    background-image: url("images/right-box-order-process.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 324px;
+}
+
+.expertise-of-essay-writing-main-box-sub-box:hover {
+    transform: translateY(-5px);
+}
+
+img.expertise-of-essay-writing-main-box-sub-box-icon-image {
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+.expertise-of-essay-writing-main-box-sub-box-heading-style {
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.expertise-of-essay-writing-main-box-sub-box-description {
+    text-align: center;
+    font-size: 14px;
+}
+
+.expertise-of-essay-writing-heading-box {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.expertise-of-essay-writing-heading-style {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+}
+
+.expertise-of-essay-writing-description {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.expertise-of-essay-writing-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.expertise-of-essay-writing-btn-style {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;
+    background: black;
+    color: white;
+    font-weight: 500;
+    border: 2px solid rgb(0, 0, 0);
+    transition: all .4s ease-in-out;
+}
+
+.expertise-of-essay-writing-btn-style:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 10px black;
+}
+
+.adjust-btn-style {
+    background: none;
+    border: 2px solid white;
+}
+
+.adjust-btn-style:hover {
+    background: white;
+    color: black;
+    transform: translateY(-5px);
+}
+
+.offring-primer-main-box-right-heading-style {
+    font-weight: 800;
+}
+
+/* Expertise Of Essay Writing End */
+/* Academic Journey Start */
+#academic-journey {
+    background-image: url("images/solution-background-image\ \(2\).png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.academic-journey-heading-box {
+    width: 80%;
+    margin: auto;
+}
+
+.academic-journey-heading-box-heading-style {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.academic-journey-main-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px 148px;
+    margin-top: 50px;
+    padding-bottom: 39px;
+}
+
+.academic-journey-main-box-sub-box {
+    width: 240px;
+    overflow: hidden;
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 15px;
+    box-shadow: 4px 4px 10px green;
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+}
+
+.academic-journey-main-box-sub-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 10px black;
+}
+
+.academic-journey-main-box-sub-box-description {
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 0px;
+}
+
+.adjust-icon-size {
+    width: 54px;
+}
+
+/* Academic Journey End */
+/* Horizontal Three Color Line Start */
+#horizontal-three-color-line {
+    overflow: hidden;
+    position: relative;
+    padding: 20px 0px;
+}
+
+.horizontal-three-color-line-main-box {
+    width: 100%;
+}
+
+.three-color-size-adjust {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+}
+
+/* Horizontal Three Color Line End */
+/* Professional Essay Writer Start */
+section#professional-essay-writer {
+    padding-bottom: 0px;
+    background-image: url("images/flag-image.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.professional-essay-writer-main-box {
+    width: 85%;
+    display: flex;
+    margin: auto;
+}
+
+.professional-essay-writer-main-box-left {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.professional-essay-writer-main-box-right {
+    width: 50%;
+}
+
+.professional-essay-writer-second-main-box {
+    width: 85%;
+    padding: 10px;
+    margin: auto;
+}
+
+.professional-essay-writer-second-main-box-left-heading-style {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.professional-essay-writer-second-main-box-left-description {
+    text-align: center;
+    margin: 0px;
+}
+
+.professional-essay-writer-main-box-left-description {
+    margin: 0px;
+}
+
+.professional-essay-writer-main-box-left-heading-style {
+    font-weight: 700;
+}
+
+/* Professional Essay Writer End */
+/* School Assignments Start */
+#school-assignments {
+    padding-top: 20px;
+}
+
+.school-assignments-heading-box {
+    width: 80%;
+    margin: auto;
+}
+
+.school-assignments-heading-box-heading-style {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.school-assignments-main-box {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.school-assignments-main-box-sub-box {
+    width: 121px;
+    background-image: url("images/image\ 1.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 154px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.school-assignments-main-box-sub-box:hover {
+    box-shadow: 4px 4px 10px black;
+    transform: translateY(-5px);
+}
+
+.school-assignments-main-box-sub-box-text-style {
+    color: white;
+    margin: 0px;
+    rotate: -90deg;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.history {
+    background-image: url("images/Psychology.webp") !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Nursing {
+    background-image: url("images/Nursing.webp") !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Engineering {
+    background-image: url("images/Finance.webp") !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Computer {
+    background-image: url("images/Literature.webp") !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Programming {
+    background-image: url("images/Law.webp") !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Biostatistics {
+    background-image: url("images/Sociology.webp") !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* School Assignments End */
+/* Cheap Essay Writing Start */
+#cheap-essay-writing {
+    background: #007332;
+    position: relative;
+    overflow: hidden;
+}
+
+.cheap-essay-writing-main-box {
+    width: 100%;
+}
+
+.cheap-essay-writing-left-ero {
+    position: absolute;
+    top: 30px;
+}
+
+.cheap-essay-writing-right-ero {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.cheap-essay-writing-second-circle {
+    position: absolute;
+    bottom: 40px;
+    left: 251px;
+    width: 180px;
+}
+
+.cheap-essay-writing-first-circle {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 180px;
+}
+
+.cheap-essay-writing-main-box-heading-box {
+    width: 80%;
+    margin: auto;
+}
+
+.cheap-essay-writing-main-box-heading-style {
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.cheap-essay-writing-main-box-description {
+    text-align: center;
+    font-size: 17px;
+    color: white;
+}
+
+/* Cheap Essay Writing End */
+/* Reviews Start */
+.carousel-main-box{
+    width: 100%;
+    /* border: 2px solid purple; */
+    display: flex;
+}
+.carousel-main-box-left{
+    width: 20%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+.carousel-main-box-right{
+    width: 80%;
+    /* border: 2px solid orangered; */
+    display: flex;
+}
+.carousel-main-box-right-left{
+    width: 90%;
+    /* border: 2px solid  blue; */
+    /* padding-left:30px; */
+    padding-right: 30px;
+}
+.carousel-main-box-right-right{
+    width: 20%;
+    /* border: 2px solid  rgb(33, 33, 85); */
+    position: relative;
+}
+.reviews-images {
+    position: absolute;
+    right: 0px;
+}
+.carousel-main-box-left-heading-style{
+    rotate: -90deg;
+    font-size: 35px;
+    font-weight: 800;
+}
+.carousel-main-box-right-left-heading-style {
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    background: #007332 !important;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .2;
+    transition: opacity .6s ease;
+}
+.reviews-heading-style {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 50px;
+    display: none;
+}
+/*  Reviews End */
+/*  Second Horizontal Line Start */
+#second-horizontal-line {
+    padding: 10px;
+}
+
+.second-horizontal-line-main-box {
+    width: 100%;
+}
+
+.second-horizontal-line-main-box img {
+    width: 100%;
+}
+
+/*  Second Horizontal Line End */
+/* Simple Para Start */
+section#simple-para {
+    padding-bottom: 40px;
+    background-image: url("images/flag-image.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.simple-para-main-box {
+    width: 85%;
+    margin: auto;
+}
+
+.simple-para-main-box-left {
+    width: 100%;
+    display: flex;
+}
+
+.simple-para-main-box-left-left {
+    width: 50%;
+    padding: 0px 30px;
+}
+
+.simple-para-main-box-left-right {
+    width: 50%;
+    padding: 0px 30px;
+}
+
+.simple-para-main-box-left-left-heading-style {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.add-new-bg-and-border-color {
+    border: 2px solid #007332;
+    background: transparent;
+    color: #007332;
+}
+
+.add-new-bg-and-border-color:hover {
+    background: #007332;
+    color: white;
+    border: 2px solid #007332;
+
+}
+
+/* Simple Para End  */
+/* Services Through Out Start  */
+.services-through-out-main-box {
+    width: 100%;
+    /* border: 2px solid purple; */
+    display: flex;
+}
+
+.services-through-out-main-box-left {
+    width: 50%;
+    position: relative;
+    background-image: url("images/image-with-para.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services-through-out-main-box-right {
+    width: 50%;
+    padding-left: 6px;
+    padding-right: 99px;
+}
+
+.services-through-out-main-box-left img {
+    width: 100%;
+}
+
+.services-through-out-main-box-right-heading-style {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.adjust-flex {
+    justify-content: start;
+    margin-top: 30px;
+}
+
+/* Services Through Out End  */
+/* Faqs Start  */
+.faqs-main-box {
+    width: 85%;
+    margin: auto;
+}
+
+.faqs-main-box-heading-sub-box {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.faqs-main-box-heading-sub-box-heading-style {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.faqs-main-box-heading-sub-box-description {
+    text-align: center;
+    margin-top: 16px;
+}
+
+/* Faqs End  */
+/* Main End  */
+/* Footer Start  */
+#footer {
+    background: #2A2A2A;
+}
+
+.footer-main-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+
+.footer-main-box-first-box {
+    width: 300px;
+}
+
+.social-media-icon-box {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    gap: 10px;
+}
+.social-media-icon-box-sub-box{
+    width: 40px;
+    height: 40px;
+    background: #007332;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all .4s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media-icon-box-sub-box:hover{
+    box-shadow: inset 4px 4px 10px #2A2A2A;
+            transform: translateY(-5px);
+}
+.social-media-icon-box-sub-box img{
+    width: 100%;
+    filter: invert(1);
+}
+img.twiter-image {
+    width: 26px;
+}
+.footer-main-box-first-box-description {
+    color: white;
+    margin-top: 20px;
+}
+
+.adjust-text {
+    display: flex;
+    align-items: center;
+}
+
+.adjust-text img {
+    width: 15px;
+    filter: invert(1);
+    margin-right: 10px;
+}
+
+.adjust-text a {
+    color: white;
+    text-decoration: none;
+    transition: all .4s ease-in-out;
+}
+
+.adjust-text a:hover {
+    color: #fc5757;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.footer-main-box-first-box-heading-style {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.adjust-width {
+    width: 200px;
+}
+
+.adjust-text i {
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.play-store-icon-box {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.add-width {
+    width: 230px;
+}
+
+.contect-number-main-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#contect-number {
+    background: #007332;
+    padding: 5px;
+}
+
+.contect-number-main-box-left {
+    width: 50%;
+    display: flex;
+}
+
+.contect-number-main-box-right {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.contect-number-main-box-left-left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contect-number-main-box-left-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contect-number-main-box-left-left-description {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.contect-number-main-box-left-left-description i {
+    color: white;
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+.contect-number-main-box-left-left-description a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all .4s ease-in-out;
+}
+
+.contect-number-main-box-left-left-description a:hover {
+    color: #fc5757;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.contect-number-main-box-left-right-description {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.contect-number-main-box-left-right-description i {
+    color: white;
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+.contect-number-main-box-left-right-description a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all .4s ease-in-out;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.contect-number-main-box-left-right-description a:hover {
+    color: #fc5757;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.copy-right-main-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copy-right {
+    background: #fc5757;
+    padding: 5px;
+}
+
+.copy-right-main-box-description {
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    color: white;
+    font-weight: 600;
+}
+
+.copy-right-main-box-description a {
+    color: white;
+    text-decoration: none;
+    color: #007332;
+}
+
+/* Footer End  */
+/* SERVICES PAGE CSS START  */
+/*  Hero Start ===== */
+.service-hero{
+    background-image: url("images/service-hero-image.png") !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: none;
+}
+/*  Hero Start ===== */
+/*  Experts Start ===== */
+.experts-main-box{
+    width: 100%;
+    /* border: 2px solid orangered; */
+    display: flex;
+}
+.experts-main-box-left {
+    width: 50%;
+    /* border: 2px solid pink; */
+    padding: 0px 0px;
+    padding-left: 85px;
+}
+.experts-main-box-right{
+    width: 50%;
+    /* border: 2px solid rgb(51, 16, 22); */
+}
+.experts-main-box-right{
+    background-image: url("images/expert-right-image.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-size: cover;   */
+}
+.expert-second-para {
+    margin-top: 40px;
+}
+.expert-third-para {
+    margin-top: 40px;
+}
+.experts-main-box-left-heading-style {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+/*  Experts End ===== */
+/*  Service Counter Start ===== */
+.adjust-counter {
+    background: #333;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 20px;
+    margin-top: 0px !important;
+}
+/*  Service Counter End ===== */
+/*  Horizontal Three Color Line Start */
+.adjust-padding {
+    padding: 0px !important;
+}
+/* Horizontal Three Color Line End */
+/* Add Padding Bottom Start */
+.add-padding-bottom{
+    padding-bottom:50px !important ;
+}
+/* Add Padding Bottom End */
+
+/* SERVICES PAGE CSS END  */
+/* ABOUT PAGE CSS START  */
+/* About Hero  Start  */
+#about-hero {
+    background: #007332;
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+.about-hero-main-box{
+    width: 100%;
+    /* border: 2px solid olivedrab; */
+}
+.about-hero-main-box-sub-box {
+    width: 50%;
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 0px 60px;
+}
+.about-hero-main-box-sub-box-heading-style {
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+}
+.about-hero-main-box-sub-box-description {
+    text-align: center;
+    color: white;
+}
+.about-hero-main-box-sub-box-btn-style{
+    padding: 15px 30px;
+    background: #2A2A2A;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    transition: all .4s ease-in-out;
+    margin-top: 20px;
+    transition: all .4s ease-in-out;
+}
+.about-hero-main-box-sub-box-btn-style:hover{
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 10px white;
+}
+/* About Hero End  */
+/* Add Margin Top Start  */
+.add-margin-top {
+    margin-top: 210px;
+}
+/* Add Margin Top End  */
+/* Our Meet Teams Start  */
+.our-meet-teams-main-box {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.our-meet-teams-main-box {
+    width: 100%;
+    /* border: 2px solid orange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px 20px;
+    flex-wrap: wrap;
+}
+.our-meet-teams-main-box-sub-box{
+    width: 200px;
+    /* border: 2px solid olivedrab; */
+}
+.our-meet-teams-main-box-sub-box-description {
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* Our Meet Teams End  */
+
+.about-us-adjust-top-padding{
+    padding-top: 0px !important;
+}
+.bg-color-chnage{
+    background: black !important;
+}
+.adjust-widt-2{
+    width: 90% !important;
+}
+/* ABOUT PAGE CSS END  */
+/* ORDER PAGE CSS START  */
+.order-form-main-box {
+    width: 100%;
+    /* border: 2px solid peru; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px 20px;
+}
+.order-form-main-box-sub-box{
+    width: 400px;
+    /* border: 2px solid greenyellow; */
+}
+.order-form-main-box-sub-box-heading-style {
+    margin: 0;
+    margin-bottom: 8px;
+    display: flex;
+    font-size: 17px;
+    font-weight: 500;
+    align-items: center;
+}
+.order-form-main-box-sub-box select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #007332;
+}
+.required-star {
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 3px;
+    color: red;
+}
+.text-area-box{
+    width: 95%;
+    /* border: 2px solid orchid; */
+}
+.text-area-box textarea {
+    width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #007332;
+}
+.total-price-box{
+    width: 95%;
+    /* border: 2px solid olive; */
+    display: flex;
+}
+.total-price-box-left{
+    width: 50%;
+    /* border: 2px solid gray; */
+}
+.total-price-box-right {
+    width: 50%;
+    /* border: 2px solid rgb(58, 23, 23); */
+    padding: 0px 50px;
+}
+.total-price-box-left-description input {
+    margin-left: 30px;
+}
+.total-price-box-left-file-attachment-box {
+    width: 100%;
+    border: 2px dotted black;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 69px;
+    padding-right: 0px;
+    border-radius: 10px;
+}
+.total-price-box-left-file-attachment-box-second-description {
+    margin: 0px;
+    margin-left: 10px;
+}
+.total-price-box-left-file-attachment-box-first-description {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+.total-price-box-left-second-description {
+    margin: 5px;
+}
+.total-price-box-left-file-attachment-box-extention {
+    margin: 0px;
+    margin-top: 10px;
+}
+.total-amount {
+    width: 100%;
+    padding: 20px 10px;
+    background: #EBF3EF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.total-amount-heading-style{
+    font-size: 30px;
+}
+.total-amount-span{
+    font-size: 50px;
+}
+.total-amount-span {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: #007332;
+}
+.total-price-box-right-button-box{
+    width: 100%;
+
+}
+.total-price-box-right-button-box input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 20px;
+    transition: all .4s ease-in-out;
+    margin-top: 30px;
+}
+.total-price-box-right-button-box input:hover{
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 10px #007332;
+}
+/* ORDER PAGE CSS END  */
+/* PRIVACY POLICY PAGE CSS START  */
+.about-content-main-box{
+    width: 100%;
+    /* border: 2px solid purple; */
+}
+.about-content-main-box-sub-box{
+    width: 80%;
+    margin: auto;
+}
+.about-content-main-box-heading-style {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom:10px;
+}
+.add-margin-top{
+    margin-top: 20px;
+}
+/* PRIVACY POLICY PAGE CSS END  */
+/* PRICING PAGE CSS START  */
+section#acadmic {
+    padding-bottom: 0px;
+}
+.bg-color-chnage{
+    background: #333 !important;
+}
+.acadmic-main-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 160px;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.acadmic-main-box-description {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.acadmic-main-box-description:hover{
+    color: #fc5757;
+}
+.table-main-box{
+    width: 100%;
+    /* border: 2px solid rebeccapurple; */
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px gray;
+}
+.table-main-box table {
+    width: 100%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.table-heading {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    color: white;
+   
+}
+.table-deata {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif ;
+}
+thead {
+    background: #007332;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.row-bg-color{
+    background: #e6e6e6;
+}
+.pricing-level-main-box{
+    width: 100%;
+    /* border: 2px solid purple; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px 80px;
+}
+.pricing-level-main-box-sub-box{
+    width:325px;
+/* border:2px solid olivedrab; */
+padding: 30px 20px;
+position: relative;
+background:white;
+box-shadow: 4px 4px 20px gray;
+border-radius: 20px;
+}
+.pricing-level-main-box-sub-box-description {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    font-weight:500px;
+}
+.pricing-level-first-image-style {
+    position: absolute;
+    top: 40px;
+    left: -80px;
+}
+.pricing-level-main-box-sub-box-heading-style {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.pricing-level-main-box-sub-box-description img {
+    margin-right: 5px;
+}
+.add-margin-top{
+    margin-top: 10px;
+}
+.level-pricing-btn-style{
+    width:100%;
+    padding:10px 10px;
+    background:black;
+    color:white;
+font-size: 18px;
+font-weight: 500;
+border-radius:10px;
+border:none;
+transition: all .4s ease-in-out;
+}
+.level-pricing-btn-style:hover{
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 10px black;
+}
+.center-box {
+    transform: scale(1.0);
+    width: 380px;
+}
+.essay-writing-dubai-logo-style{
+    width: 50%;
+}
+.essay-writing-footer-logo {
+    width: 70%;
+}
+/* PRICING PAGE CSS END  */
+.order-form-main-box-sub-box input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #007332;
+}
+.check-box {
+    margin-top: 10px;
+}
+.check-box input {
+    margin-right: 5px;
+}
+.check-box a {
+    color: black;
+}
+/* MEDIA QUERY START */
+@media (max-width:990px) {
+    #hero {
+        background-image: url("images/Banner-Image (1).png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 165px;
+        padding-bottom: 100px;
+        position: relative;
+        z-index: 0;
+        background: black;
+    }
+
+    .hero-main-box-left {
+        width: 50%;
+        display: none;
+    }
+
+    .hero-main-box-right {
+        width: 100%;
+    }
+
+    .hero-calculator-box-sub-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero-calculator-box-sub-box-left {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 20px;
+    }
+
+    .hero-calculator-box-sub-box-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #e6e6e6;
+        border-radius: 20px;
+        padding: 24px;
+    }
+
+    .hero-calculator-box {
+        width: 100%;
+        background: white;
+        border-radius: 20px;
+        padding: 30px 30px;
+        position: relative;
+        bottom: -40px;
+        right: 0px;
+        left: 0px;
+        margin: auto;
+        box-shadow: 4px 4px 10px black;
+    }
+
+    .offring-primer-main-box {
+        width: 100%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .offring-primer-main-box-left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-right: 30px;
+        display: none;
+    }
+
+    .offring-primer-main-box-right {
+        width: 100%;
+        padding: 0px 40px;
+    }
+
+    .offring-primer-main-box-sub-box {
+        width: 100%;
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+        padding: 30px 50px;
+        background: #fc5757;
+        margin: auto;
+    }
+
+    #blank-place-fill {
+        background: #007332;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        min-height: 390px;
+        overflow: hidden;
+        display: none;
+    }
+
+    section#counter {
+        background: #333;
+        position: relative;
+        overflow: hidden;
+        padding: 20px 20px;
+        margin-top: 0px;
+    }
+
+    .counter-left-icon-image {
+        position: absolute;
+        width: 180px;
+        left: -30px;
+        top: 40px;
+        display: none;
+    }
+
+    .counter-right-icon-image {
+        position: absolute;
+        width: 180px;
+        top: 40px;
+        right: -30px;
+        display: none;
+
+    }
+
+    .expertise-of-essay-writing-heading-box {
+        width: 100%;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+
+    #academic-journey {
+        background-image: url("images/solution-background-image (2).png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background: #f3f3f3;
+    }
+
+    .professional-essay-writer-main-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .professional-essay-writer-main-box-left {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 15px;
+    }
+
+    .professional-essay-writer-main-box-right {
+        width: 100%;
+    }
+
+    .professional-essay-writer-second-main-box-left-heading-style {
+        text-align: start;
+        margin-bottom: 10px;
+    }
+
+    .professional-essay-writer-second-main-box-left-description {
+        text-align: start;
+        margin: 0px;
+    }
+
+    .school-assignments-heading-box {
+        width: 100%;
+        margin: auto;
+    }
+
+    .cheap-essay-writing-main-box-heading-box {
+        width: 100%;
+        margin: auto;
+    }
+
+    .reviews-main-box {
+        width: 100%;
+        display: flex;
+        padding: 20px 0px;
+        flex-direction: column;
+    }
+
+    .reviews-main-box-left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reviews-main-box-left-heading-style {
+        rotate: 0deg;
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    .reviews-main-box-left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 45px;
+    }
+
+    .reviews-main-box-right-left-box {
+        width: 100%;
+        padding: 10px 20px;
+        padding-right: 0px;
+    }
+
+    .reviews-main-box-right {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reviews-main-box-right-left-box-description {
+        text-align: center;
+    }
+
+    .reviews-main-box-right-left-box-heading-style {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .reviews-main-box-right-right-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    img.review-first-image-adjust {
+        border-radius: 50%;
+    }
+
+    .simple-para-main-box-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .simple-para-main-box-left-left {
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    .simple-para-main-box-left-right {
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    .services-through-out-main-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services-through-out-main-box-left {
+        width: 100%;
+        position: relative;
+        background-image: url("images/image-with-para.webp");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: none;
+    }
+
+    .services-through-out-main-box-right {
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    .faqs-main-box-heading-sub-box {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .footer-main-box {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        gap: 20px 20px;
+    }
+
+    .contect-number-main-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .contect-number-main-box-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contect-number-main-box-left {
+        width: 100%;
+        display: flex;
+    }
+
+    .contect-number-main-box-left-left {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contect-number-main-box-left-right {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-calculator-box-sub-box-left select {
+        width: 100%;
+        padding: 15px;
+        border-radius: 5px;
+        border: 2px solid gray;
+        outline: none;
+    }
+
+    .professional-essay-writer-second-main-box {
+        width: 100%;
+        padding: 10px 0px;
+        margin: auto;
+    }
+
+    .simple-para-main-box {
+        width: 100%;
+        margin: auto;
+    }
+
+    .cheap-essay-writing-left-ero {
+        display: none;
+    }
+
+    .cheap-essay-writing-first-circle {
+        display: none;
+    }
+
+    .cheap-essay-writing-second-circle {
+        display: none;
+    }
+
+    .cheap-essay-writing-right-ero {
+        display: none;
+    }
+
+    .expertise-of-essay-writing-first-circle-pic {
+        display: none;
+    }
+
+    .expertise-of-essay-writing-second-circle-pic {
+        display: none;
+    }
+
+    .expertise-of-essay-writing-third-circle-pic {
+        display: none;
+    }
+    .about-hero-main-box-sub-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        padding: 0px 60px;
+    }
+    .order-form-main-box-sub-box {
+        width: 100%;
+    }
+    .text-area-box {
+        width: 100%;
+    }
+    .total-price-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .total-price-box-left {
+        width: 100%;
+    }
+    .total-price-box-right {
+        width: 100%;
+        padding: 0px 0px;
+        margin-top: 15px;
+    }
+    .table-main-box {
+        width: 100%;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        overflow: scroll;
+        box-shadow: 4px 4px 10px gray;
+    }
+    .table-deata {
+        text-align: center;
+        padding: 20px;
+        font-size: 16px;
+        font-family: "Montserrat", sans-serif;
+    }
+    .experts-main-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .experts-main-box-left {
+        width: 100%;
+        padding: 0px 0px;
+        padding-left: 85px;
+    }
+    .experts-main-box-left {
+        width: 100%;
+        padding: 0px 0px;
+        padding-left: 0px;
+    }
+    .center-box {
+        transform: scale(1.0);
+        width: 325px;
+    }
+    .pricing-level-first-image-style {
+        position: absolute;
+        top: 51px;
+        left: -42px;
+        width: 410px;
+    }
+    a.navbar-brand {
+        margin-right: 0px;
+    }
+    .service-hero {
+        background: black !important;
+    }
+    section#order-form {
+        overflow: hidden;
+    }
+    .about-hero-main-box-sub-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        padding: 0px 0px;
+    }
+    .about-hero-main-box-sub-box-heading-style {
+        font-size: 30px;
+        color: white;
+        font-weight: 800;
+        text-align: center;
+    }
+    .contect-number-main-box-left-right-description a {
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+        transition: all .4s ease-in-out;
+        font-family: "Montserrat", sans-serif;
+    }
+    .contect-number-main-box-left-right-description i {
+        color: white;
+        margin-right: 5px;
+        font-size: 20px;
+    }
+    .contect-number-main-box-left-left-description a {
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+        transition: all .4s ease-in-out;
+    }
+    .contect-number-main-box-left-left-description i {
+        color: white;
+        margin-right: 5px;
+        font-size: 20px;
+    }
+    .carousel-main-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .carousel-main-box-left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        display: none;
+    }
+    .carousel-main-box-left-heading-style {
+        rotate: 0deg;
+        font-size: 40px !important;
+        font-weight: 900 !important;
+    }
+    .carousel-main-box-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .carousel-main-box-right-left {
+        width: 100%;
+        padding-right: 30px;
+    }
+    .carousel-main-box-right-left-heading-style {
+        font-size: 25px;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        text-align: center;
+    }
+    .carousel-main-box-right-left-description {
+        text-align: center;
+    }
+    .reviews-images {
+        position: relative;
+ }
+ .carousel-main-box-right-right {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.reviews-images {
+    position: relative;
+    border-radius: 50%;
+}
+.reviews-heading-style{
+    display: block !important;
+}
+}
+
+@media (max-width:425px) {
+    a.navbar-brand {
+        margin-right: 0px;
+    }
+
+    .hero-calculator-box-sub-box-left select {
+        width: 100%;
+        padding: 15px;
+        border-radius: 5px;
+        border: 2px solid gray;
+        outline: none;
+    }
+
+    .offring-primer-main-box-sub-box {
+        width: 100%;
+        position: relative;
+        bottom: 0px;
+        padding: 10px 10px;
+        background: #fc5757;
+    }
+
+    .expertise-of-essay-writing-heading-style {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 800;
+        color: white;
+    }
+
+    .academic-journey-heading-box {
+        width: 100%;
+        margin: auto;
+    }
+
+    .academic-journey-heading-box-heading-style {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    section#professional-essay-writer {
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .school-assignments-heading-box-heading-style {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .cheap-essay-writing-main-box-heading-style {
+        color: white;
+        text-align: center;
+        font-weight: 800;
+        font-size: 30px;
+    }
+
+    section#simple-para {
+        padding-bottom: 40px;
+        padding-top: 0px;
+    }
+
+    .simple-para-main-box-left-left-heading-style {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    section#services-through-out {
+        padding-top: 0px;
+    }
+
+    .services-through-out-main-box-right-heading-style {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+
+    .faqs-main-box-heading-sub-box-heading-style {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    section#faqs {
+        padding-top: 0px;
+    }
+
+    .contect-number-main-box-left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .copy-right-main-box-description {
+        font-family: "Montserrat", sans-serif;
+        margin: 0px;
+        color: white;
+        font-weight: 600;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .hero-main-box-right-heading-style {
+        font-size: 30px;
+        font-weight: 900;
+        font-family: "Raleway", sans-serif;
+        color: white;
+        margin-bottom: 25px;
+    }
+
+    #hero {
+        background-image: url("images/Banner-Image (1).png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 115px;
+        padding-bottom: 100px;
+        position: relative;
+        z-index: 0;
+        background: black;
+    }
+    .offring-primer-main-box-right {
+        width: 100%;
+        padding: 0px 0px !important;
+    }
+    .professional-essay-writer-main-box-left {
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 0px !important;
+        margin-bottom: 15px;
+    }
+    .simple-para-main-box-left-left {
+        width: 100%;
+        padding: 0px 0px !important;
+    }
+    .simple-para-main-box-left-right {
+        width: 100%;
+        padding: 0px 0px !important;
+    }
+    .faqs-main-box {
+        width: 100%;
+        margin: auto;
+    }
+    .about-hero-main-box-sub-box-heading-style {
+        font-size: 30px;
+        color: white;
+        font-weight: 800;
+        text-align: center;
+    }
+    .about-hero-main-box-sub-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        padding: 0px 0px;
+    }
+    .center-box {
+        transform: scale(1.0);
+        width: 325px;
+    }
+    .pricing-level-first-image-style {
+        position: absolute;
+        top: 51px;
+        left: -42px;
+        width: 410px;
+    }
+    section#pricing-level {
+        overflow: hidden;
+    }
+    a.navbar-brand {
+        margin-right: 0px;
+        width: 200px !important;
+    }
+}
+@media (Max-width:320px) {
+    .pricing-level-first-image-style {
+        position: absolute;
+        top: 51px;
+        left: -42px;
+        width: 363px;
+    }
+}
+/* MEDIA QUERY END */
